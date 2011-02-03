@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/elementView"
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent">
+    <LinearLayout android:orientation="horizontal" 
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_vertical|center_horizontal">
+	    <TextView android:id="@+id/header" 
+	    	android:layout_height="wrap_content" 
+	    	android:layout_width="wrap_content"
+	    	android:paddingBottom="5dp">
+	    </TextView>
+<!-- 
+        <ImageButton android:id="@+id/atomImage"
+        	android:background="@drawable/transparent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingRight="40dp"
+            android:scaleType="fitEnd">
+        </ImageButton> 
+-->
+    </LinearLayout>
+	<ScrollView android:layout_marginBottom="50dip" android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:layout_width="fill_parent">
+	    <TextView android:id="@+id/info" android:layout_height="wrap_content" android:layout_width="wrap_content" />
+	</ScrollView>
+	     <RelativeLayout android:layout_marginTop="-50dip" android:gravity="bottom" android:layout_height="wrap_content" android:layout_width="fill_parent">
+	        <LinearLayout 	android:orientation="horizontal" 
+	        				android:layout_height="wrap_content" 
+	        				android:layout_width="fill_parent"
+	        				android:gravity="center_horizontal|center_vertical">
+		        <ImageButton android:id="@+id/IB_star" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+		     	<ImageButton android:id="@+id/IB_atom" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+		     	<ImageButton android:id="@+id/IB_wiki" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+		     	<Spinner android:id="@+id/spinner" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+		     </LinearLayout>
+	     </RelativeLayout>
+</LinearLayout>
