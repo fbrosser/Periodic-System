@@ -13,7 +13,7 @@
 	    	android:layout_width="wrap_content"
 	    	android:paddingBottom="5dp">
 	    </TextView>
-<!-- 
+<!--  
         <ImageButton android:id="@+id/atomImage"
         	android:background="@drawable/transparent"
             android:layout_width="fill_parent"
@@ -23,6 +23,16 @@
             android:scaleType="fitEnd">
         </ImageButton> 
 -->
+
+        <ImageButton android:id="@+id/starred"
+        	android:background="@drawable/transparent"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:adjustViewBounds="true"
+            android:paddingRight="40dp"
+            android:scaleType="fitEnd">
+        </ImageButton> 
+        
     </LinearLayout>
 	<ScrollView android:layout_marginBottom="50dip" android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:layout_width="fill_parent">
 	    <TextView android:id="@+id/info" android:layout_height="wrap_content" android:layout_width="wrap_content" />

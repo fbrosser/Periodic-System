@@ -19,11 +19,14 @@ public class Element {
 	private int period;
 	private String groupName;
 	private String periodName;
+	private boolean starred;
+	private String wikiurl;
 	
 	public Element(String name, String symbol, int number, double mass,
 			double density, double meltingPoint, double boilingPoint,
 			stpState state, int nProtons, int nNeutrons, int nElectrons,
-			int group, int period, String groupName, String periodName) {
+			int group, int period, String groupName, String periodName, 
+			boolean starred, String wikiurl) {
 		
 		super();
 		this.name = name;
@@ -41,6 +44,8 @@ public class Element {
 		this.period = period;
 		this.groupName = groupName;
 		this.periodName = periodName;
+		this.starred = starred;
+		this.wikiurl = wikiurl;
 	}
 
 	public String getName() {
@@ -103,8 +108,16 @@ public class Element {
 		return periodName;
 	}
 	
+	public boolean isStarred() {
+		return this.starred;
+	}
+	
+	public void setStarred(boolean starred) {
+		this.starred = starred;
+	}
+	
 	public String getWikiURL() {
-		return "http://en.wikipedia.org/wiki/Hydrogen";
+		return wikiurl;
 	}
 	
 	public static stpState parseState(String string) {
@@ -143,6 +156,7 @@ public class Element {
 		s += "Chemical symbol: " + this.symbol + "\n";
 		s += "Atomic number: " + this.number + "\n";
 		s += "Atomic mass (u): " + this.mass + "\n";
+		s += "Atomic radius:" + "\n";
 		s += "Density (g/cm^3): " + this.density + "\n";
 		s += "Meling point (K): " + this.meltingPoint + "\n";
 		s += "Boiling point (K): " + this.boilingPoint + "\n";
@@ -154,6 +168,20 @@ public class Element {
 		s += "Period: " + this.period + "\n";
 		s += "Group name: " + this.groupName + "\n";
 		s += "Period name: " + this.periodName + "\n";
+		s += "Discovery Date:" + "\n";
+		s += "Abundance (%):" + "\n";
+		s += "Covalent radius:" + "\n";
+		s += "Electron Affinity:" + "\n";
+		s += "Electronegativity (Pauling):" + "\n";
+		s += "Heat of Formation:" + "\n";
+		s += "Heat of Fusion:" + "\n";
+		s += "Heat of Vaporization:" + "\n";
+		s += "Ionic Radius:" + "\n";
+		s += "Ionization Energy:" + "\n";
+		s += "Number of Isotopes:" + "\n";
+		s += "Nuclear Charge (Slater):" + "\n";
+		s += "Number of known radioactive isotopes:" + "\n";
+		s += "Thermal Conductivity:" + "\n";
 		return s;
 	}
 	

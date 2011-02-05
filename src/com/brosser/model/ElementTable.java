@@ -64,7 +64,18 @@ public class ElementTable {
 			return null;
 		}
 		else {
-			return table[group+18*period];
+			if(period == 0) {
+				return (group == 0 ? table[0] : table[1]);
+			}
+			else if(period == 1) {
+				return (group < 2 ? table[group+2] : table[group-8]);
+			}
+			else if(period == 2) {
+				return (group < 2 ? table[group+2+8] : table[group]);
+			}
+			else {
+				return table[group + (period*18) - 36];
+			}
 		}
 	}
 	
@@ -74,6 +85,10 @@ public class ElementTable {
 	
 	public static int getGroups() {
 		return groups;
+	}
+	
+	public void setStarred(int group, int period, boolean starred) {
+		getElement(group, period).setStarred(starred);
 	}
 	
 	public static Element getActiveElement() {
@@ -114,10 +129,12 @@ public class ElementTable {
 				int period = Integer.parseInt(text[next++]);
 				String groupName = text[next++];
 				String periodName = text[next++];
+				String wikiurl = text[next++];
 				Element element = new Element(name, symbol, number, 
 						mass, density, meltingPoint, boilingPoint, state, 
 						nProtons, nNeutrons, nElectrons, group, period, 
-						groupName, periodName);
+						groupName, periodName, false, 
+						wikiurl);
 				elements[nextElement++] = element;
 			}
 		}
