@@ -6,6 +6,7 @@ import android.view.View.OnClickListener;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import com.brosser.model.ElementTable;
 
@@ -22,12 +23,16 @@ public class TableActivity extends Activity implements OnClickListener {
         setContentView(R.layout.table);
         
         // Populate the button matrix
+        // NB! Button names are 1 ... 18
     	for(int i=0; i<ElementTable.getGroups(); i++) {
     		for(int j=0; j<ElementTable.getPeriods(); j++) {
-    			String buttonID = "btn" + i + "a" + j;
-    			int resID = getResources().getIdentifier(buttonID, "id", "com.brosser");
-    			buttons[i][j] = ((Button) findViewById(resID));
-    			buttons[i][j].setOnClickListener(this);
+    			String buttonID = "btn" + (i+1) + "a" + (j+1);
+    			int resID = getResources().getIdentifier(buttonID, "id", getPackageName());
+
+    			if(resID != 0) {
+	    			buttons[i][j] = ((Button) findViewById(resID));
+	    			buttons[i][j].setOnClickListener(this);
+    			}
     		}
     	}
     }
