@@ -98,7 +98,6 @@ public class ElementTable {
 	public static void setActiveElement(Element element) {
 		activeElement = element;
 	}
-	
 	public static Element[] parseElements(Resources resources) {
 		
 		Element[] elements = new Element[groups*periods];
@@ -129,19 +128,75 @@ public class ElementTable {
 				int period = Integer.parseInt(text[next++]);
 				String groupName = text[next++];
 				String periodName = text[next++];
-				String wikiurl = text[next++];
+				String date = text[next++];
+				String wikiurl = "http://en.wikipedia.org/wiki/" + name;
+				next++;
+				//String wikiurl = text[next++];
 				Element element = new Element(name, symbol, number, 
 						mass, density, meltingPoint, boilingPoint, state, 
 						nProtons, nNeutrons, nElectrons, group, period, 
 						groupName, periodName, false, 
-						wikiurl);
+						wikiurl, date);
 				elements[nextElement++] = element;
 			}
 		}
 		
 		return elements;
 	}
-	
+
+	/*
+	public static Element[] parseElements(Resources resources) {
+		
+		Element[] elements = new Element[groups*periods];
+		String rawText = readRawText(resources);
+		String[] lines = rawText.split("\n");
+		String line = "";
+		for(int i=0; i<lines.length; i++) {
+			line += lines[i] + " ";
+		}
+		String[] text = line.split(" ");
+		int next = 0;
+		int nextElement = 0;
+		
+		for(int i=0; i<groups; i++) {
+			for(int j=0; j<periods; j++) {
+				
+				String name = text[next++];
+				String symbol = text[next++];
+				int number = Integer.parseInt(text[next++]);
+				double mass = Double.parseDouble(text[next++]);
+				double density = Double.parseDouble(text[next++]);
+				double meltingPoint = Double.parseDouble(text[next++]);
+				double boilingPoint = Double.parseDouble(text[next++]);
+				stpState state = Element.parseState(text[next++]);
+				int nProtons = Integer.parseInt(text[next++]);
+				int nNeutrons = Integer.parseInt(text[next++]);
+				int nElectrons = Integer.parseInt(text[next++]);
+				int group = Integer.parseInt(text[next++]);
+				int period = Integer.parseInt(text[next++]);
+				String groupName = text[next++];
+				String periodName = text[next++];
+				String wikiurl = "http://en.wikipedia.org/wiki/" + name;
+				//String wikiurl = text[next++];
+				Element element = new Element(name, symbol, number, 
+						mass, density, meltingPoint, boilingPoint, state, 
+						nProtons, nNeutrons, nElectrons, group, period, 
+						groupName, periodName, false, 
+						wikiurl);
+				
+				Element element = new Element("b", "B", 1, 
+						2, 3, 4, 5, stpState.GAS, 
+						6, 7, 8, 9, 10, 
+						"11", "12", false, 
+						"");
+				elements[nextElement++] = element;
+				
+			}
+		}
+		
+		return elements;
+	}
+	*/
     private static String readRawText(Resources resources){
 
         InputStream inputStream = resources.openRawResource(R.raw.element_data);

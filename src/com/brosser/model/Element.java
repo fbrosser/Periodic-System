@@ -2,7 +2,7 @@ package com.brosser.model;
 
 public class Element {
 	
-	public static enum stpState {UNDEFINED, GAS, LIQUID, SOLID};
+	public static enum stpState {UNDEFINED, GAS, LIQUID, SOLID, SYNTHETIC};
 	
 	private String name;
 	private String symbol;
@@ -11,6 +11,7 @@ public class Element {
 	private double density;
 	private double meltingPoint;
 	private double boilingPoint;
+	private String date;
 	private stpState state;
 	private int nProtons;
 	private int nNeutrons;
@@ -26,7 +27,7 @@ public class Element {
 			double density, double meltingPoint, double boilingPoint,
 			stpState state, int nProtons, int nNeutrons, int nElectrons,
 			int group, int period, String groupName, String periodName, 
-			boolean starred, String wikiurl) {
+			boolean starred, String wikiurl, String date) {
 		
 		super();
 		this.name = name;
@@ -46,6 +47,7 @@ public class Element {
 		this.periodName = periodName;
 		this.starred = starred;
 		this.wikiurl = wikiurl;
+		this.date = date;
 	}
 
 	public String getName() {
@@ -130,6 +132,9 @@ public class Element {
 		else if(string.toLowerCase().equals("solid")) {
 			return stpState.SOLID;
 		}
+		else if(string.toLowerCase().equals("synthetic")) {
+			return stpState.SYNTHETIC;
+		}
 		else {
 			return stpState.UNDEFINED;
 		}
@@ -144,6 +149,9 @@ public class Element {
 		}
 		else if(state == stpState.SOLID) {
 			return "Solid";
+		}
+		else if(state == stpState.SYNTHETIC) {
+			return "Synthetic";
 		}
 		else {
 			return "Undefined";
@@ -168,7 +176,7 @@ public class Element {
 		s += "Period: " + this.period + "\n";
 		s += "Group name: " + this.groupName + "\n";
 		s += "Period name: " + this.periodName + "\n";
-		s += "Discovery Date:" + "\n";
+		s += "Discovery Date (observed or predicted): " + this.date + "\n";
 		s += "Abundance (%):" + "\n";
 		s += "Covalent radius:" + "\n";
 		s += "Electron Affinity:" + "\n";
