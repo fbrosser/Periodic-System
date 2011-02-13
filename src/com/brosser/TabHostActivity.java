@@ -23,16 +23,16 @@ public class TabHostActivity extends TabActivity {
 		ElementTable elementTable = ElementTable.getInstance(getResources());
 	
 		// Add tabs
-		tabHost.addTab(tabHost.newTabSpec("element_view")
-				.setIndicator("",
-						getResources().getDrawable(R.drawable.atom))
-				.setContent(new Intent(this, ElementActivity.class)
-					.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)));
-
 		tabHost.addTab(tabHost.newTabSpec("table_view")
 				.setIndicator("", 
 						getResources().getDrawable(R.drawable.table))
 				.setContent(new Intent(this, TableActivity.class)
+					.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)));
+		
+		tabHost.addTab(tabHost.newTabSpec("element_view")
+				.setIndicator("",
+						getResources().getDrawable(R.drawable.atom))
+				.setContent(new Intent(this, ElementActivity.class)
 					.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)));
 		
 		tabHost.addTab(tabHost.newTabSpec("settings_view")
