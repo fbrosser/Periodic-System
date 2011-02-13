@@ -175,7 +175,7 @@ public class ElementActivity extends Activity {
 
 	            text.setText((String)data.get("Name"));
 	            text.setTextColor(Color.BLACK);
-	            text.setWidth(80);
+	            text.setWidth(150);
 	            text.setTextSize(12);
 	            String iconOn = (String)data.get("Icon");
 	            
