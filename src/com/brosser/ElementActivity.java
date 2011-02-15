@@ -14,11 +14,7 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewGroup.LayoutParams;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.HorizontalScrollView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -74,6 +70,7 @@ public class ElementActivity extends Activity {
         star.setOnClickListener(new ImageButton.OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
+				// Toggle favourite
 				ElementTable.getActiveElement().setStarred(ElementTable.getActiveElement().isStarred() ? false : true);
 				reloadText();
 				createSpinner();
@@ -84,8 +81,7 @@ public class ElementActivity extends Activity {
         spinner.setOnItemSelectedListener(
         	new OnItemSelectedListener() {
 				@Override
-				public void onItemSelected(AdapterView<?> parent, View view,
-						int position, long id) {
+				public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 					if(position != ElementTable.getActiveElement().getNumber()-1) {
 						ElementTable.setActiveElement(ElementTable.getElement(position));
 						reloadText();
@@ -147,8 +143,10 @@ public class ElementActivity extends Activity {
         
         
         spinner.setAdapter(aspnElements);
-        spinner.setSelection(ElementTable.getActiveElement().getNumber()-1);
-    	
+        
+        int activeNumber = ElementTable.getActiveElement().getNumber();
+        spinner.setSelection((activeNumber - 1 - (activeNumber > 57 ? 14 : 0)
+        		- (activeNumber > 89 ? 14 : 0)), true);
     }
 
     /** 
@@ -171,7 +169,8 @@ public class ElementActivity extends Activity {
 	            ImageView icon = new ImageView(context);
 	            
 	            // unsafe cast!
-	            HashMap<String, Object> data = (HashMap<String, Object>) getItem(position);
+	            @SuppressWarnings("unchecked")
+				HashMap<String, Object> data = (HashMap<String, Object>) getItem(position);
 
 	            text.setText((String)data.get("Name"));
 	            text.setTextColor(Color.BLACK);
