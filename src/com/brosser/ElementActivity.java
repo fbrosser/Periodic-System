@@ -129,7 +129,7 @@ public class ElementActivity extends Activity {
         HashMap<String, Object> map = new HashMap<String, Object>();
         
         // Populate spinner item list
-        for(int i=0; i<18*7; i++) {
+        for(int i=0; i<90; i++) { // 18*7
         	Element element = ElementTable.getElement(i);
         	map = new HashMap<String, Object>();
             map.put("Name", element.getNumber() + " " + element.getSymbol() + " " + element.getName());
