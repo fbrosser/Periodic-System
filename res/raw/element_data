@@ -1,132 +1,132 @@
-Hydrogen H 1 1.00079 0.00008988 14 20 Gas 1 0 1 1 1 1 1 1766 http://en.wikipedia.org/wiki/Hydrogen 3 1 78 30 Nonmetals X X 73 0.14 2.2 1.00 0.1815 13.598
-Helium He 2 4.002602 0.0001785 0.95 4.22 Gas 2 2 2 18 1 18 1 1868 http://en.wikipedia.org/wiki/Helium 5 3 128 28 Noble Gases X 0 <0.001 0 1.70 0.152 24.587
-Lithium Li 3 6.941 0.534 453.69 1615 Solid 3 4 2,1 1 2 1 AlkaliMetals 1817 http://en.wikipedia.org/wiki/Hydrogen 5 3 152 123 Alkali Metals X 60 0.0017 0.98 1.30 84.7 5.392
-Berylium Be 4 9.0122 1.8477 1551.15 3143 Solid 4 0 2,2 2 2 1 1 1798 http://en.wikipedia.org/wiki/Hydrogen 6 5 111.3 89 Alkaline Earth Metals 0 <0.001 1.57 1.95 200.0 9.322
-Boron B 5 10.811 2.340 2573.15 2823 Solid 5 0 2,3 13 2 1 1 1808 http://en.wikipedia.org/wiki/Hydrogen 6 4 79.5 81 Metalloid X X 27 <0.001 2.04 2.60 27.0 8.298
-Carbon C 6 12.011 3.513 3823 5100 Solid 6 0 2,4 14 2 1 1 3750BC http://en.wikipedia.org/wiki/Hydrogen 8 6 77.2 77 Nonmetals X X 122 0.04 2.55 3.25 1960.0 11.26
-Nitrogen N 7 14.007 0.0012506 63.289 77.35 Gas 7 0 2,5 15 2 1 1 1772 http://en.wikipedia.org/wiki/Hydrogen 8 6 54.9 70 Nonmetals X X 0 0.005 3.04 3.90 0.02598 14.534
-Oxygen O 8 15.999 0.001429 50.35 89.19 Gas 8 0 2,6 16 2 1 1 1771 http://en.wikipedia.org/wiki/Hydrogen 8 5 60.4 70 Chalcogens X X 141 46.6 3.44 4.55 0.2674 13.618
-Fluorine F 9 18.998 0.001696 53.52 85.01 Gas 9 0 2,7 17 2 1 1 1886 http://en.wikipedia.org/wiki/Hydrogen 7 6 70.9 57 Halogens X X 328 0.08 3.98 5.2 0.0279 17.422
-Neon Ne 10 20.180 0.00089994 24.48 27.1 Gas 10 0 2,8 18 2 1 1 1898 http://en.wikipedia.org/wiki/Hydrogen 9 6 38 58 Noble Gases X 0 <0.001 0 5.85 0.0493 21.564
-Sodium Na 11 22.990 0.971 370.96 1156 Solid 11 0 2,8,1 1 3 1 1 1807 http://en.wikipedia.org/wiki/Hydrogen 14 13 185.8 166 Alkali Metals X 53 2.83 0.93 2.20 141 5.149
-Magnesium Mg 12 24.305 1.738 921.95 1363 Solid 12 0 2,8,2 2 3 1 1 1755 http://en.wikipedia.org/wiki/Hydrogen 12 9 159.9 125 Alkaline Earth Metals 0 2.09 1.31 2.85 156 7.646
-Aluminum Al 13 26.982 2.698 933.52 2740 Solid 13 0 2,8,3 13 3 1 1 1825 http://en.wikipedia.org/wiki/Hydrogen 11 10 143.2 141 Other Metals X 42 8.13 1.61 3.50 273 5.986
-Silicon Si 14 32.064 2.329 1683.15 2628 Solid 14 0 2,8,4 14 3 1 1 1824 http://en.wikipedia.org/wiki/Hydrogen 11 8 117.6 111 Metalloids X X 134 27.72 1.90 4.15 148 8.151
-Phosphorus P 15 30.974 1.82 317.25 553 Solid 15 0 2,8,5 15 3 1 1 1669 http://en.wikipedia.org/wiki/Hydrogen 10 9 110.5 107 Nonmetals X X 72 0.12 2.19 4.80 0.235 10.486
-Sulfur S 16 32.064 2.07 385.95 717.824 Solid 16 0 2,8,6 16 3 1 1 2000BC+ http://en.wikipedia.org/wiki/Hydrogen 11 7 99.4 99 Nonmetals X X 200 0.05 2.58 5.45 0.269 10.36
-Chlorine Cl 17 35.453 0.003214 182.17 238.54 Gas 17 0 2,8,7 17 3 1 1 1774 http://en.wikipedia.org/wiki/Hydrogen 13 11 180 102 Halogens X X 349 0.05 3.16 6.10 0.0089 12.967
-Argon Ar 18 39.948 0.001784 83.95 87.4 Gas 18 0 2,8,8 18 3 1 1 1894 http://en.wikipedia.org/wiki/Hydrogen 15 12 71 106 Noble Gases X 0 <0.001 0 6.75 0.0177 15.759
-Potassium K 19 39.098 0.862 336.8 1047 Solid 19 0 2,8,8,1 1 4 1 1 1807 http://en.wikipedia.org/wiki/Hydrogen 18 16 197.4 203 Alkali Metals X 48 2.59 0.82 2.20 102.4 4.341
-Calcium Ca 20 40.08 1.55 1112 1757 Solid 20 0 2,8,8,2 2 4 1 1 1808 http://en.wikipedia.org/wiki/Hydrogen 16 10 160.6 174 Alkaline Earth Metals 2 3.63 1.00 2.85 200 6.113
-Scandium Sc 21 44.956 2.989 1814 3104 Solid 21 0 2,8,9,2 3 4 1 1 1879 http://en.wikipedia.org/wiki/Hydrogen 15 14 144.8 146 Transition Metals X 18 <0.001 1.36 3.00 15.8 6.54
-Titanium Ti 22 47.90 4.54 1941 3560 Solid 22 0 2,8,10,2 4 4 1 1 1791 http://en.wikipedia.org/wiki/Hydrogen 13 8 131.1 134 Transition Metals X 8 0.44 1.54 3.15 21.9 6.82
-Vanadium V 23 50.942 6.11 1933 3653 Solid 23 0 2,8,11,2 5 4 1 1 1801 http://en.wikipedia.org/wiki/Hydrogen 11 10 124.9 124 Transition Metals X 51 0.01 1.63 3.30 30.7 6.74
-Chromium Cr 24 51.996 7.19 2130 2945 Solid 24 0 2,8,13,1 6 4 1 1 1797 http://en.wikipedia.org/wiki/Hydrogen 13 9 128 139 Transition Metals X 65 0.01 1.66 3.45 93.7 6.766
-Manganese Mn 25 54.938 7.44 1517 2235 Solid 25 0 2,8,13,2 7 4 1 1 1770 http://en.wikipedia.org/wiki/Hydrogen 15 14 124.1 127 Transition Metals X 0 0.1 1.55 3.60 7.82 7.435
-Iron Fe 26 5.847 7.874 1808 3023 Solid 26 0 2,8,14,2 8 4 1 1 5000BC+ http://en.wikipedia.org/wiki/Hydrogen 16 12 125.3 132 Transition Metals X 15 5.0 1.83 3.75 80.2 7.87
-Cobalt Co 27 58.933 8.9 1768 3143 Solid 27 0 2,8,15,2 9 4 1 1 1732 http://en.wikipedia.org/wiki/Hydrogen 17 16 124.6 126 Transition Metals X 64 <0.001 1.88 3.90 100 7.86
-Nickel Ni 28 58.69 8.902 1726 3005 Solid 28 0 2,8,16,2 10 4 1 1 1751 http://en.wikipedia.org/wiki/Hydrogen 14 9 124 125 Transition Metals X 112 0.03 1.91 4.05 90.7 7.635
-Copper Cu 29 63.546 8.96 1356.4 2840 Solid 29 0 2,8,18,1 11 4 1 1 9000BC http://en.wikipedia.org/wiki/Hydrogen 18 16 128 132 Transition Metals X 119 0.01 1.90 4.20 401 7.726
-Zinc Zn 30 65.38 7.133 692.73 1180 Solid 30 0 2,8,18,2 12 4 1 1 1000BC+ http://en.wikipedia.org/wiki/Hydrogen 23 19 122.1 122 Transition Metals X 0 0.03 1.65 4.35 116 9.394
-Gallium Ga 31 65.38 5.907 302.93 2676 Liquid 31 0 2,8,18,3 13 4 1 1 1875 http://en.wikipedia.org/wiki/Hydrogen 23 21 122.5 122 Post Transition Metals 41 <0.001 1.81 5.00 40.6 5.999
-Germanium Ge 32 72.61 5.323 1210.55 3103 Solid 32 0 2,8,18,4 14 4 1 1 1886 http://en.wikipedia.org/wiki/Hydrogen 24 19 124.5 125 Metalloids X X 119 <0.001 2.01 5.65 59.9 7.899
-Arsenic As 33 74.992 5.78 1090.15 886 Solid 33 0 2,8,18,5 15 4 1 1 2500BC http://en.wikipedia.org/wiki/Hydrogen 21 20 116 117 Metalloids X X 79 <0.001 2.18 6.30 50.0 9.81
-Selenium Se 34 78.96 4.79 490 958 Solid 34 0 2,8,18,6 16 4 1 1 1817 http://en.wikipedia.org/wiki/Hydrogen 26 20 114.5 114 Nonmetals X X 195 <0.001 2.55 6.95 2.04 9.752
-Bromine Br 35 79.904 3.1226 265.8 331.9 Liquid 35 0 2,8,18,7 17 4 1 1 1825 http://en.wikipedia.org/wiki/Hydrogen 28 26 120 189 Halogens X X 324 <0.001 2.96 7.60 0.122 11.814
-Krypton Kr 36 83.80 2.823 116.55 120.8 Gas 36 0 2,8,18,8 18 4 1 1 1898 http://en.wikipedia.org/wiki/Hydrogen 27 21 247.5 216 Noble Gases X 0 <0.001 3.00 8.25 0.00949 13.999
-Rubidium Rb 37 85.47 1.532 312.04 961 Solid 37 0 2,8,18,8,1 1 5 1 1 1861 http://en.wikipedia.org/wiki/Hydrogen 30 29 215.1 191 Alkali Metals X 47 0.03 0.82 2.20 58.2 4.177
-Strontium Sr 38 87.956 2.54 1042 1657 Solid 38 0 2,8,18,8,2 2 5 1 1 1787 http://en.wikipedia.org/wiki/Hydrogen 23 19 177.6 162 Alkaline Earth Metals 5 0.04 0.95 2.85 35.3 5.695
-Yttrium Y 39 88.905 4.469 1795 3611 Solid 39 0 2,8,18,9,2 3 5 1 1 1794 http://en.wikipedia.org/wiki/Hydrogen 32 31 159 145 Transition Metals X 30 <0.001 1.22 3.00 17.2 6.38
-Zirconium Zr 40 91.22 6.506 2125 4650 Solid 40 0 2,8,18,10,2 4 5 1 1 1789 http://en.wikipedia.org/wiki/Hydrogen 25 21 142.9 134 Transition Metals X 41 0.02 1.33 3.15 22.7 6.84
-Niobium Nb 41 92.906 8.57 2741 5015 Solid 41 0 2,8,18,12,1 5 5 1 1 1801 http://en.wikipedia.org/wiki/Hydrogen 31 30 136.3 130 Transition Metals X 86 <0.001 1.60 3.30 53.7 6.88
-Molybdenum Mo 42 95.94 10.22 2890 4885 Solid 42 0 2,8,18,13,1 6 5 1 1 1778 http://en.wikipedia.org/wiki/Hydrogen 23 16 135.2 127 Transition Metals X 72 <0.001 2.16 3.45 138 7.099
-Technetium Tc 43 98.00 11.5 2445 5150 Synthetic 43 0 2,8,18,13,2 7 5 1 1 1937 http://en.wikipedia.org/wiki/Hydrogen 25 25 132.5 125 Transition Metals X 0 <0.001 1.90 3.60 50.6 7.28
-Ruthenium Ru 44 101.07 12.37 2583 4173 Solid 44 0 2,8,18,15,1 8 5 1 1 1807 http://en.wikipedia.org/wiki/Hydrogen 20 13 134.5 125 Transition Metals X 101 <0.001 2.30 3.75 117 7.37
-Rhodium Rh 45 102.91 12.41 2239 4000 Solid 45 0 2,8,18,16,1 9 5 1 1 1804 http://en.wikipedia.org/wiki/Hydrogen 34 33 137.6 128 Transition Metals X 110 <0.001 2.28 3.90 150 7.46
-Palladium Pd 46 106.42 12.02 1825 3413 Solid 46 0 2,8,18,18 10 5 1 1 1803 http://en.wikipedia.org/wiki/Hydrogen 25 19 144.5 134 Transition Metals X 54 <0.001 2.20 4.05 71.8 8.34
-Silver Ag 47 107.87 10.5 1235.08 2485 Solid 47 0 2,8,18,18,1 11 5 1 1 5000BC+ http://en.wikipedia.org/wiki/Hydrogen 46 44 148.9 141 Transition Metals X 126 <0.001 1.93 4.20 429 7.576
-Cadmium Cd 48 112.41 8.65 594.05 1038 Solid 48 0 2,8,18,18,2 12 5 1 1 1817 http://en.wikipedia.org/wiki/Hydrogen 31 23 162.6 150 Transition Metals X 0 <0.001 1.96 4.35 96.8 8.993
-Indium In 49 114.82 7.31 429.76 2345 Solid 49 0 2,8,18,18,3 13 5 1 1 1863 http://en.wikipedia.org/wiki/Hydrogen 59 58 140.5 140 Post Transition Metals 39 <0.001 1.78 5.0 81.6 5.786
-Tin Sn 50 118.69 7.31 505.12 2875 Solid 50 0 2,8,18,18,4 14 5 1 1 3500BC http://en.wikipedia.org/wiki/Hydrogen 37 27 145 141 Post Transition Metals 107 <0.001 1.96 5.65 66.6 7.344
-Antimony Sb 51 121.175 6.691 903.89 1860 Solid 51 0 2,8,18,18,5 15 5 1 1 3000BC http://en.wikipedia.org/wiki/Hydrogen 40 38 140 137 Metalloids X X 101 <0.001 2.05 6.30 24.3 8.641
-Tellurium Te 52 127.60 6.24 722.65 1262 Solid 52 0 2,8,18,18,6 16 5 1 1 1782 http://en.wikipedia.org/wiki/Hydrogen 39 33 140 133 Metalloids X X 190 <0.001 2.10 6.95 2.35 9.009
-Iodine I 53 126.90 4.93 385.5 457 Solid 53 0 2,8,18,18,7 17 5 1 1 1811 http://en.wikipedia.org/wiki/Hydrogen 37 36 140 139 Halogens X X 295 <0.001 2.66 7.60 0.449 10.451
-Xenon Xe 54 131.29 3.54 161.1 166.05 Gas 54 0 2,8,18,18,8 18 5 1 1 1898 http://en.wikipedia.org/wiki/Hydrogen 35 26 108 140 Noble Gases X 0 <0.001 2.60 8.25 0.00569 12.13
-Cesium Cs 55 132.91 6.145 301.4 951.55 Solid 55 0 2,8,18,18,8,1 1 6 1 1 1860 http://en.wikipedia.org/wiki/Hydrogen 40 39 265 253 Alkali Metals X 46 <0.001 0.79 2.20 35.9 3.894
-Barium Ba 56 137.33 8.24 988 1913 Solid 56 0 2,8,18,18,8,2 2 6 1 1 1772 http://en.wikipedia.org/wiki/Hydrogen 35 28 222 198 Alkaline Earth Metals 14 0.04 0.89 2.85 18.4 5.212
-Lanthanoids * 57 0 0 2 230 Solid 57 0 2,8,18,18,9,2 1 1 1 1 - http://en.wikipedia.org/wiki/Hydrogen 0 0 0 0 Lanthanoids X X 0 <0.001 0 2.85 13.5 5.577
-Hafnium Hf 72 178.49 13.31 2500 4875 Solid 72 0 2,8,18,32,10,2 4 6 1 1 1911 http://en.wikipedia.org/wiki/Hydrogen 28 24 159 175 Transition Metals X 0 <0.001 1.30 3.00 23 6.8249
-Tantalum Ta 73 180.948 16.654 3269 5731 Solid 73 0 2,8,18,32,11,2 5 6 1 1 1802 http://en.wikipedia.org/wiki/Hydrogen 26 25 146 170 Transition Metals X 31 <0.001 1.50 3.30 57.5 7.90
-Tungsten W 74 183.85 19.3 3683 5828 Solid 74 0 2,8,18,32,12,2 6 6 1 1 1781 http://en.wikipedia.org/wiki/Hydrogen 24 18 137 162 Transition Metals X 79 0.01 2.36 4.35 174 7.93
-Rhenium Re 75 186.2 21.02 3453 5869 Solid 75 0 2,8,18,32,13,2 7 6 1 1 1908 http://en.wikipedia.org/wiki/Hydrogen 27 27 137 151 Transition Metals X 0 <0.001 1.90 3.60 47.9 7.89
-Osmium Os 76 190.2 22.59 3318 5285 Solid 76 0 2,8,18,32,14,2 8 6 1 1 1803 http://en.wikipedia.org/wiki/Hydrogen 24 20 133 144 Transition Metals X 104 <0.001 1.28 3.75 87.6 8.71
-Iridium Ir 77 192.2 22.42 2683 4701 Solid 77 0 2,8,18,32,15,2 9 6 1 1 1803 http://en.wikipedia.org/wiki/Hydrogen 26 24 136 141 Transition Metals X 150 <0.001 2.20 3.90 147 9.12
-Platinum Pt 78 195.09 21.45 2045 4100 Solid 78 0 2,8,18,32,17,1 10 6 1 1 1803 http://en.wikipedia.org/wiki/Hydrogen 23 17 137.3 136 Transition Metals X 205 <0.001 2.20 4.05 71.6 9.02
-Gold Au 79 196.197 19.32 1337.15 3080.15 Solid 79 0 2,8,18,32,18,1 11 6 1 1 6000BC+ http://en.wikipedia.org/wiki/Hydrogen 31 30 144.2 136 Transition Metals X 223 <0.001 2.28 4.20 317 9.22
-Mercury Hg 80 200.59 13.546 234.28 629.88 Liquid 80 0 2,8,18,32,18,2 12 6 1 1 2000BC+ http://en.wikipedia.org/wiki/Hydrogen 24 17 150.3 132 Transition Metals X 0 <0.001 2.00 4.35 8.34 10.44
-Thallium Tl 81 204.37 11.85 576.5 1730 Solid 81 0 2,8,18,32,18,3 13 6 1 1 1861 http://en.wikipedia.org/wiki/Hydrogen 39 38 170 170 Post Transition Metals 36 <0.001 1.62 5.00 46.1 6.10
-Lead Pb 82 207.19 11.35 600.642 2013 Solid 82 0 2,8,18,32,18,4 14 6 1 1 7000BC http://en.wikipedia.org/wiki/Hydrogen 25 19 175 146 Post Transition Metals 35 <0.001 2.33 5.65 35.3 7.42
-Bismuth Bi 83 208.98 9.747 544.3 1837 Solid 83 0 2,8,18,32,18,5 15 6 1 1 1753 http://en.wikipedia.org/wiki/Hydrogen 28 27 154.5 148 Post Transition Metals 91 <0.001 2.02 6.30 7.87 7.28
-Polonium Po 84 209.0 9.32 527 1235 Solid 84 0 2,8,18,32,18,6 16 6 1 1 1898 http://en.wikipedia.org/wiki/Hydrogen 29 22 167.3 140 Metalloids X X 180 <0.001 2.00 6.95 20 8.42
-Astatine At 85 210.0 7 575 575 Solid 85 0 2,8,18,32,18,7 17 6 1 1 1940 http://en.wikipedia.org/wiki/Hydrogen 34 34 127 150 Halogens X X 270 <0.001 2.20 7.60 1.7 9.33
-Radon Rn 86 222.0 4.4 202 211.3 Gas 86 0 2,8,18,32,18,8 18 6 1 1 1898 http://en.wikipedia.org/wiki/Hydrogen 37 34 240 150 Noble Gases X 0 <0.001 2.20 8.25 0.00364 10.75
-Francium Fr 87 223 1.87 300 300 Solid 87 0 2,8,18,32,18,8,1 1 7 1 1 1939 http://en.wikipedia.org/wiki/Hydrogen 36 36 270 260 Alkali Metals X 0 <0.001 0.70 2.20 15 3.94
-Radium Ra 88 226.0 5.0 973 973 Solid 88 0 2,8,18,32,18,8,2 2 7 1 1 1898 http://en.wikipedia.org/wiki/Hydrogen 39 39 223 221 Alkaline Earth Metals 0 <0.001 0.90 1.65 18.6 5.28
-Actinoids ** 89 1.06 12.3 2 230 Solid 89 0 1 1 1 1 1 - http://en.wikipedia.org/wiki/Hydrogen 0 0 0 0 Actinoids X X 0 <0.001 0 1.8 12 0
-Rutherfordium Rf 104 261.11 23 2400 5800 Synthetic 104 0 2,8,18,32,32,10,2 4 7 1 1 1968 http://en.wikipedia.org/wiki/Hydrogen 17 17 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown
-Dubnium Db 105 268.0 0 0 0 Synthetic 105 0 2,8,18,32,32,11,2 5 7 1 1 1970 http://en.wikipedia.org/wiki/Hydrogen 18 18 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown
-Seaborgium Sg 106 271.0 0 0 0 Synthetic 106 0 2,8,18,32,32,12,2 6 7 1 1 1974 http://en.wikipedia.org/wiki/Hydrogen 15 15 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown
-Bohrium Bh 107 270.0 0 0 0 Synthetic 107 0 2,8,18,32,32,13,2 7 7 1 1 1981 http://en.wikipedia.org/wiki/Hydrogen 14 14 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown
-Hassium Hs 108 277.0 0 0 0 Synthetic 108 0 2,8,18,32,32,14,2 8 7 1 1 1984 http://en.wikipedia.org/wiki/Hydrogen 14 14 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown
-Meitnerium Mt 109 276.0 0 0 0 Synthetic 109 0 2,8,18,32,32,15,2 9 7 1 1 1982 http://en.wikipedia.org/wiki/Hydrogen 10 10 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown
-Darmstadtium Ds 110 281.0 0 0 0 Synthetic 110 0 2,8,18,32,32,17,1 10 7 1 1 1994 http://en.wikipedia.org/wiki/Hydrogen 16 16 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown
-Roentgenium Rg 111 280.0 0 0 0 Synthetic 111 0 2,8,18,32,32,18,1 11 7 1 1 1994 http://en.wikipedia.org/wiki/Hydrogen 17 17 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown
-Copernicum Cn 112 285.0 0 0 0 Synthetic 112 0 2,8,18,32,32,18,2 12 7 1 1 1996 http://en.wikipedia.org/wiki/Hydrogen 18 18 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown
-Ununtrium Uut 113 284.0 0 0 0 Synthetic 113 0 2,8,18,32,32,18,3 13 7 1 1 2003(unconf.) http://en.wikipedia.org/wiki/Hydrogen 13 13 Unknown Unknown Presumably Other Metals Unknown 0 0 0 Unknown Unknown
-Ununquadium Uuq 114 289.0 0 0 0 Synthetic 114 0 2,8,18,32,32,18,4 14 7 1 1 1999 http://en.wikipedia.org/wiki/Hydrogen 11 11 Unknown Unknown Suspected Noble Gas Unknown 0 0 0 Unknown Unknown
-Ununpentium Uup 115 288.0 0 0 0 Synthetic 115 0 2,8,18,32,32,18,5 15 7 1 1 2003(unconf.) http://en.wikipedia.org/wiki/Hydrogen 8 8 Unknown Unknown Unknown X X Unknown 0 0 0 Unknown Unknown
-Ununhexium Uuh 116 293.0 0 0 0 Synthetic 116 0 2,8,18,32,32,18,6 16 7 1 1 2000(unconf.) http://en.wikipedia.org/wiki/Hydrogen 6 6 Unknown Unknown Unknown X X Unknown 0 0 0 Unknown Unknown
-Ununseptium Uus 117 294.0 0 0 0 Synthetic 117 0 2,8,18,32,32,18,7 17 7 1 1 2009(unconf.) http://en.wikipedia.org/wiki/Hydrogen 6 6 Unknown Unknown Unknown X X Unknown 0 0 0 Unknown Unknown
-Ununoctium Uuo 118 294.0 0 0 0 Synthetic 118 0 2,8,18,32,32,18,8 18 7 1 1 2002(unconf.) http://en.wikipedia.org/wiki/Hydrogen 6 6 Unknown Unknown Unknown X X Unknown 0 0 0 Unknown Unknown
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
-H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0
+Hydrogen H 1 1.00079 0.00008988 14 20 Gas 1 0 1 1 1 1 1 1766 http://en.wikipedia.org/wiki/Hydrogen 3 1 78 30 Nonmetals X X 73 0.14 2.2 1.00 0.1815 13.598 154 218.0 0.12 0.046
+Helium He 2 4.002602 0.0001785 0.95 4.22 Gas 2 2 2 18 1 18 1 1868 http://en.wikipedia.org/wiki/Helium 5 3 128 28 Noble Gases X 0 <0.001 0 1.70 0.152 24.587 N/A 0 0.021 0.082
+Lithium Li 3 6.941 0.534 453.69 1615 Solid 3 4 2,1 1 2 1 AlkaliMetals 1817 http://en.wikipedia.org/wiki/Hydrogen 5 3 152 123 Alkali Metals X 60 0.0017 0.98 1.30 84.7 5.392 78 159.4 4.60 147.7
+Berylium Be 4 9.0122 1.8477 1551.15 3143 Solid 4 0 2,2 2 2 1 1 1798 http://en.wikipedia.org/wiki/Hydrogen 6 5 111.3 89 Alkaline Earth Metals 0 <0.001 1.57 1.95 200.0 9.322 34 324.3 9.80 308.8
+Boron B 5 10.811 2.340 2573.15 2823 Solid 5 0 2,3 13 2 1 1 1808 http://en.wikipedia.org/wiki/Hydrogen 6 4 79.5 81 Metalloid X X 27 <0.001 2.04 2.60 27.0 8.298 23 562.7 22.2 504.5
+Carbon C 6 12.011 3.513 3823 5100 Solid 6 0 2,4 14 2 1 1 3750BC http://en.wikipedia.org/wiki/Hydrogen 8 6 77.2 77 Nonmetals X X 122 0.04 2.55 3.25 1960.0 11.26 260 716.7 105.0 710.9
+Nitrogen N 7 14.007 0.0012506 63.289 77.35 Gas 7 0 2,5 15 2 1 1 1772 http://en.wikipedia.org/wiki/Hydrogen 8 6 54.9 70 Nonmetals X X 0 0.005 3.04 3.90 0.02598 14.534 171 472.7 0.72 5.58
+Oxygen O 8 15.999 0.001429 50.35 89.19 Gas 8 0 2,6 16 2 1 1 1771 http://en.wikipedia.org/wiki/Hydrogen 8 5 60.4 70 Chalcogens X X 141 46.6 3.44 4.55 0.2674 13.618 132 249.2 0.444 6.82
+Fluorine F 9 18.998 0.001696 53.52 85.01 Gas 9 0 2,7 17 2 1 1 1886 http://en.wikipedia.org/wiki/Hydrogen 7 6 70.9 57 Halogens X X 328 0.08 3.98 5.2 0.0279 17.422 133 79.0 5.10 3.26
+Neon Ne 10 20.180 0.00089994 24.48 27.1 Gas 10 0 2,8 18 2 1 1 1898 http://en.wikipedia.org/wiki/Hydrogen 9 6 38 58 Noble Gases X 0 <0.001 0 5.85 0.0493 21.564 112 0 0.324 1.736
+Sodium Na 11 22.990 0.971 370.96 1156 Solid 11 0 2,8,1 1 3 1 1 1807 http://en.wikipedia.org/wiki/Hydrogen 14 13 185.8 166 Alkali Metals X 53 2.83 0.93 2.20 141 5.149 98 107.3 2.64 99.2
+Magnesium Mg 12 24.305 1.738 921.95 1363 Solid 12 0 2,8,2 2 3 1 1 1755 http://en.wikipedia.org/wiki/Hydrogen 12 9 159.9 125 Alkaline Earth Metals 0 2.09 1.31 2.85 156 7.646 78 147.7 9.04 127.6
+Aluminum Al 13 26.982 2.698 933.52 2740 Solid 13 0 2,8,3 13 3 1 1 1825 http://en.wikipedia.org/wiki/Hydrogen 11 10 143.2 141 Other Metals X 42 8.13 1.61 3.50 273 5.986 57 326.4 10.67 290.8
+Silicon Si 14 32.064 2.329 1683.15 2628 Solid 14 0 2,8,4 14 3 1 1 1824 http://en.wikipedia.org/wiki/Hydrogen 11 8 117.6 111 Metalloids X X 134 27.72 1.90 4.15 148 8.151 271 455.6 39.6 383.3
+Phosphorus P 15 30.974 1.82 317.25 553 Solid 15 0 2,8,5 15 3 1 1 1669 http://en.wikipedia.org/wiki/Hydrogen 10 9 110.5 107 Nonmetals X X 72 0.12 2.19 4.80 0.235 10.486 212 314.6 2.51 51.9
+Sulfur S 16 32.064 2.07 385.95 717.824 Solid 16 0 2,8,6 16 3 1 1 2000BC+ http://en.wikipedia.org/wiki/Hydrogen 11 7 99.4 99 Nonmetals X X 200 0.05 2.58 5.45 0.269 10.36 184 278.8 1.23 9.62
+Chlorine Cl 17 35.453 0.003214 182.17 238.54 Gas 17 0 2,8,7 17 3 1 1 1774 http://en.wikipedia.org/wiki/Hydrogen 13 11 180 102 Halogens X X 349 0.05 3.16 6.10 0.0089 12.967 181 121.7 6.41 20.42
+Argon Ar 18 39.948 0.001784 83.95 87.4 Gas 18 0 2,8,8 18 3 1 1 1894 http://en.wikipedia.org/wiki/Hydrogen 15 12 71 106 Noble Gases X 0 <0.001 0 6.75 0.0177 15.759 154 0 1.21 6.53
+Potassium K 19 39.098 0.862 336.8 1047 Solid 19 0 2,8,8,1 1 4 1 1 1807 http://en.wikipedia.org/wiki/Hydrogen 18 16 197.4 203 Alkali Metals X 48 2.59 0.82 2.20 102.4 4.341 133 89.2 2.40 79.1
+Calcium Ca 20 40.08 1.55 1112 1757 Solid 20 0 2,8,8,2 2 4 1 1 1808 http://en.wikipedia.org/wiki/Hydrogen 16 10 160.6 174 Alkaline Earth Metals 2 3.63 1.00 2.85 200 6.113 106 178.2 9.33 150.6
+Scandium Sc 21 44.956 2.989 1814 3104 Solid 21 0 2,8,9,2 3 4 1 1 1879 http://en.wikipedia.org/wiki/Hydrogen 15 14 144.8 146 Transition Metals X 18 <0.001 1.36 3.00 15.8 6.54 83 377.8 15.9 376.1
+Titanium Ti 22 47.90 4.54 1941 3560 Solid 22 0 2,8,10,2 4 4 1 1 1791 http://en.wikipedia.org/wiki/Hydrogen 13 8 131.1 134 Transition Metals X 8 0.44 1.54 3.15 21.9 6.82 80 469.9 20.9 425.5
+Vanadium V 23 50.942 6.11 1933 3653 Solid 23 0 2,8,11,2 5 4 1 1 1801 http://en.wikipedia.org/wiki/Hydrogen 11 10 124.9 124 Transition Metals X 51 0.01 1.63 3.30 30.7 6.74 72 514.2 17.6 459.7
+Chromium Cr 24 51.996 7.19 2130 2945 Solid 24 0 2,8,13,1 6 4 1 1 1797 http://en.wikipedia.org/wiki/Hydrogen 13 9 128 139 Transition Metals X 65 0.01 1.66 3.45 93.7 6.766 84 396.6 15.3 341.8
+Manganese Mn 25 54.938 7.44 1517 2235 Solid 25 0 2,8,13,2 7 4 1 1 1770 http://en.wikipedia.org/wiki/Hydrogen 15 14 124.1 127 Transition Metals X 0 0.1 1.55 3.60 7.82 7.435 91 280.7 14.4 220.5
+Iron Fe 26 5.847 7.874 1808 3023 Solid 26 0 2,8,14,2 8 4 1 1 5000BC+ http://en.wikipedia.org/wiki/Hydrogen 16 12 125.3 132 Transition Metals X 15 5.0 1.83 3.75 80.2 7.87 82 416.3 14.9 340.2
+Cobalt Co 27 58.933 8.9 1768 3143 Solid 27 0 2,8,15,2 9 4 1 1 1732 http://en.wikipedia.org/wiki/Hydrogen 17 16 124.6 126 Transition Metals X 64 <0.001 1.88 3.90 100 7.86 82 424.7 15.2 382.4
+Nickel Ni 28 58.69 8.902 1726 3005 Solid 28 0 2,8,16,2 10 4 1 1 1751 http://en.wikipedia.org/wiki/Hydrogen 14 9 124 125 Transition Metals X 112 0.03 1.91 4.05 90.7 7.635 78 429.7 17.6 374.8
+Copper Cu 29 63.546 8.96 1356.4 2840 Solid 29 0 2,8,18,1 11 4 1 1 9000BC http://en.wikipedia.org/wiki/Hydrogen 18 16 128 132 Transition Metals X 119 0.01 1.90 4.20 401 7.726 96 338.3 13.0 306.7
+Zinc Zn 30 65.38 7.133 692.73 1180 Solid 30 0 2,8,18,2 12 4 1 1 1000BC+ http://en.wikipedia.org/wiki/Hydrogen 23 19 122.1 122 Transition Metals X 0 0.03 1.65 4.35 116 9.394 83 130.7 6.67 114.2
+Gallium Ga 31 65.38 5.907 302.93 2676 Liquid 31 0 2,8,18,3 13 4 1 1 1875 http://en.wikipedia.org/wiki/Hydrogen 23 21 122.5 122 Post Transition Metals 41 <0.001 1.81 5.00 40.6 5.999 113 277.0 5.59 270.3
+Germanium Ge 32 72.61 5.323 1210.55 3103 Solid 32 0 2,8,18,4 14 4 1 1 1886 http://en.wikipedia.org/wiki/Hydrogen 24 19 124.5 125 Metalloids X X 119 <0.001 2.01 5.65 59.9 7.899 90 376.6 34.7 327.6
+Arsenic As 33 74.992 5.78 1090.15 886 Solid 33 0 2,8,18,5 15 4 1 1 2500BC http://en.wikipedia.org/wiki/Hydrogen 21 20 116 117 Metalloids X X 79 <0.001 2.18 6.30 50.0 9.81 69 302.5 27.7 31.9
+Selenium Se 34 78.96 4.79 490 958 Solid 34 0 2,8,18,6 16 4 1 1 1817 http://en.wikipedia.org/wiki/Hydrogen 26 20 114.5 114 Nonmetals X X 195 <0.001 2.55 6.95 2.04 9.752 69 227.1 5.1 90
+Bromine Br 35 79.904 3.1226 265.8 331.9 Liquid 35 0 2,8,18,7 17 4 1 1 1825 http://en.wikipedia.org/wiki/Hydrogen 28 26 120 189 Halogens X X 324 <0.001 2.96 7.60 0.122 11.814 196 111.0 10.8 30.5
+Krypton Kr 36 83.80 2.823 116.55 120.8 Gas 36 0 2,8,18,8 18 4 1 1 1898 http://en.wikipedia.org/wiki/Hydrogen 27 21 247.5 216 Noble Gases X 0 <0.001 3.00 8.25 0.00949 13.999 169 0 1.64 9.05
+Rubidium Rb 37 85.47 1.532 312.04 961 Solid 37 0 2,8,18,8,1 1 5 1 1 1861 http://en.wikipedia.org/wiki/Hydrogen 30 29 215.1 191 Alkali Metals X 47 0.03 0.82 2.20 58.2 4.177 149 80.9 2.20 75.7
+Strontium Sr 38 87.956 2.54 1042 1657 Solid 38 0 2,8,18,8,2 2 5 1 1 1787 http://en.wikipedia.org/wiki/Hydrogen 23 19 177.6 162 Alkaline Earth Metals 5 0.04 0.95 2.85 35.3 5.695 127 164.4 9.16 154.4
+Yttrium Y 39 88.905 4.469 1795 3611 Solid 39 0 2,8,18,9,2 3 5 1 1 1794 http://en.wikipedia.org/wiki/Hydrogen 32 31 159 145 Transition Metals X 30 <0.001 1.22 3.00 17.2 6.38 106 421.3 17.2 367.4
+Zirconium Zr 40 91.22 6.506 2125 4650 Solid 40 0 2,8,18,10,2 4 5 1 1 1789 http://en.wikipedia.org/wiki/Hydrogen 25 21 142.9 134 Transition Metals X 41 0.02 1.33 3.15 22.7 6.84 109 608.8 23.0 566.7
+Niobium Nb 41 92.906 8.57 2741 5015 Solid 41 0 2,8,18,12,1 5 5 1 1 1801 http://en.wikipedia.org/wiki/Hydrogen 31 30 136.3 130 Transition Metals X 86 <0.001 1.60 3.30 53.7 6.88 74 725.9 27.2 680.19
+Molybdenum Mo 42 95.94 10.22 2890 4885 Solid 42 0 2,8,18,13,1 6 5 1 1 1778 http://en.wikipedia.org/wiki/Hydrogen 23 16 135.2 127 Transition Metals X 72 <0.001 2.16 3.45 138 7.099 92 658.1 27.6 589.9
+Technetium Tc 43 98.00 11.5 2445 5150 Synthetic 43 0 2,8,18,13,2 7 5 1 1 1937 http://en.wikipedia.org/wiki/Hydrogen 25 25 132.5 125 Transition Metals X 0 <0.001 1.90 3.60 50.6 7.28 95 678 23.81 585.2
+Ruthenium Ru 44 101.07 12.37 2583 4173 Solid 44 0 2,8,18,15,1 8 5 1 1 1807 http://en.wikipedia.org/wiki/Hydrogen 20 13 134.5 125 Transition Metals X 101 <0.001 2.30 3.75 117 7.37 77 642.7 23.7 567.0
+Rhodium Rh 45 102.91 12.41 2239 4000 Solid 45 0 2,8,18,16,1 9 5 1 1 1804 http://en.wikipedia.org/wiki/Hydrogen 34 33 137.6 128 Transition Metals X 110 <0.001 2.28 3.90 150 7.46 86 556.9 21.55 494.3
+Palladium Pd 46 106.42 12.02 1825 3413 Solid 46 0 2,8,18,18 10 5 1 1 1803 http://en.wikipedia.org/wiki/Hydrogen 25 19 144.5 134 Transition Metals X 54 <0.001 2.20 4.05 71.8 8.34 86 378.2 17.2 361.5
+Silver Ag 47 107.87 10.5 1235.08 2485 Solid 47 0 2,8,18,18,1 11 5 1 1 5000BC+ http://en.wikipedia.org/wiki/Hydrogen 46 44 148.9 141 Transition Metals X 126 <0.001 1.93 4.20 429 7.576 113 284.6 11.3 257.7
+Cadmium Cd 48 112.41 8.65 594.05 1038 Solid 48 0 2,8,18,18,2 12 5 1 1 1817 http://en.wikipedia.org/wiki/Hydrogen 31 23 162.6 150 Transition Metals X 0 <0.001 1.96 4.35 96.8 8.993 114 112.0 6.11 100.0
+Indium In 49 114.82 7.31 429.76 2345 Solid 49 0 2,8,18,18,3 13 5 1 1 1863 http://en.wikipedia.org/wiki/Hydrogen 59 58 140.5 140 Post Transition Metals 39 <0.001 1.78 5.0 81.6 5.786 132 243.3 3.27 231.8
+Tin Sn 50 118.69 7.31 505.12 2875 Solid 50 0 2,8,18,18,4 14 5 1 1 3500BC http://en.wikipedia.org/wiki/Hydrogen 37 27 145 141 Post Transition Metals 107 <0.001 1.96 5.65 66.6 7.344 93 302.1 7.20 296.2
+Antimony Sb 51 121.175 6.691 903.89 1860 Solid 51 0 2,8,18,18,5 15 5 1 1 3000BC http://en.wikipedia.org/wiki/Hydrogen 40 38 140 137 Metalloids X X 101 <0.001 2.05 6.30 24.3 8.641 89 262.3 20.9 165.8
+Tellurium Te 52 127.60 6.24 722.65 1262 Solid 52 0 2,8,18,18,6 16 5 1 1 1782 http://en.wikipedia.org/wiki/Hydrogen 39 33 140 133 Metalloids X X 190 <0.001 2.10 6.95 2.35 9.009 211 196.7 13.5 104.6
+Iodine I 53 126.90 4.93 385.5 457 Solid 53 0 2,8,18,18,7 17 5 1 1 1811 http://en.wikipedia.org/wiki/Hydrogen 37 36 140 139 Halogens X X 295 <0.001 2.66 7.60 0.449 10.451 220 106.8 15.27 41.67
+Xenon Xe 54 131.29 3.54 161.1 166.05 Gas 54 0 2,8,18,18,8 18 5 1 1 1898 http://en.wikipedia.org/wiki/Hydrogen 35 26 108 140 Noble Gases X 0 <0.001 2.60 8.25 0.00569 12.13 190 0 3.10 12.65
+Cesium Cs 55 132.91 6.145 301.4 951.55 Solid 55 0 2,8,18,18,8,1 1 6 1 1 1860 http://en.wikipedia.org/wiki/Hydrogen 40 39 265 253 Alkali Metals X 46 <0.001 0.79 2.20 35.9 3.894 165 76.1 2.09 66.5
+Barium Ba 56 137.33 8.24 988 1913 Solid 56 0 2,8,18,18,8,2 2 6 1 1 1772 http://en.wikipedia.org/wiki/Hydrogen 35 28 222 198 Alkaline Earth Metals 14 0.04 0.89 2.85 18.4 5.212 143 180 7.66 150.9
+Lanthanoids * 57 0 0 2 230 Solid 57 0 2,8,18,18,9,2 1 1 1 1 - http://en.wikipedia.org/wiki/Hydrogen 0 0 0 0 Lanthanoids X X 0 <0.001 0 2.85 13.5 5.577 122 431.0 10.04 402.1
+Hafnium Hf 72 178.49 13.31 2500 4875 Solid 72 0 2,8,18,32,10,2 4 6 1 1 1911 http://en.wikipedia.org/wiki/Hydrogen 28 24 159 175 Transition Metals X 0 <0.001 1.30 3.00 23 6.8249 84 619.2 27.2 570.7
+Tantalum Ta 73 180.948 16.654 3269 5731 Solid 73 0 2,8,18,32,11,2 5 6 1 1 1802 http://en.wikipedia.org/wiki/Hydrogen 26 25 146 170 Transition Metals X 31 <0.001 1.50 3.30 57.5 7.90 72 782.0 36.57 758.22
+Tungsten W 74 183.85 19.3 3683 5828 Solid 74 0 2,8,18,32,12,2 6 6 1 1 1781 http://en.wikipedia.org/wiki/Hydrogen 24 18 137 162 Transition Metals X 79 0.01 2.36 4.35 174 7.93 89 849.4 35.3 824.2
+Rhenium Re 75 186.2 21.02 3453 5869 Solid 75 0 2,8,18,32,13,2 7 6 1 1 1908 http://en.wikipedia.org/wiki/Hydrogen 27 27 137 151 Transition Metals X 0 <0.001 1.90 3.60 47.9 7.89 89 769.9 60.43 704.25
+Osmium Os 76 190.2 22.59 3318 5285 Solid 76 0 2,8,18,32,14,2 8 6 1 1 1803 http://en.wikipedia.org/wiki/Hydrogen 24 20 133 144 Transition Metals X 104 <0.001 1.28 3.75 87.6 8.71 85 791.0 57.85 738.06
+Iridium Ir 77 192.2 22.42 2683 4701 Solid 77 0 2,8,18,32,15,2 9 6 1 1 1803 http://en.wikipedia.org/wiki/Hydrogen 26 24 136 141 Transition Metals X 150 <0.001 2.20 3.90 147 9.12 137 665.3 41.12 612.1
+Platinum Pt 78 195.09 21.45 2045 4100 Solid 78 0 2,8,18,32,17,1 10 6 1 1 1803 http://en.wikipedia.org/wiki/Hydrogen 23 17 137.3 136 Transition Metals X 205 <0.001 2.20 4.05 71.6 9.02 127 565.3 22.17 469
+Gold Au 79 196.197 19.32 1337.15 3080.15 Solid 79 0 2,8,18,32,18,1 11 6 1 1 6000BC+ http://en.wikipedia.org/wiki/Hydrogen 31 30 144.2 136 Transition Metals X 223 <0.001 2.28 4.20 317 9.22 149 366.1 12.55 343.1
+Mercury Hg 80 200.59 13.546 234.28 629.88 Liquid 80 0 2,8,18,32,18,2 12 6 1 1 2000BC+ http://en.wikipedia.org/wiki/Hydrogen 24 17 150.3 132 Transition Metals X 0 <0.001 2.00 4.35 8.34 10.44 132 61.3 2.29 59.11
+Thallium Tl 81 204.37 11.85 576.5 1730 Solid 81 0 2,8,18,32,18,3 13 6 1 1 1861 http://en.wikipedia.org/wiki/Hydrogen 39 38 170 170 Post Transition Metals 36 <0.001 1.62 5.00 46.1 6.10 96 182.2 4.14 166.1
+Lead Pb 82 207.19 11.35 600.642 2013 Solid 82 0 2,8,18,32,18,4 14 6 1 1 7000BC http://en.wikipedia.org/wiki/Hydrogen 25 19 175 146 Post Transition Metals 35 <0.001 2.33 5.65 35.3 7.42 65 195.0 4.77 177.8
+Bismuth Bi 83 208.98 9.747 544.3 1837 Solid 83 0 2,8,18,32,18,5 15 6 1 1 1753 http://en.wikipedia.org/wiki/Hydrogen 28 27 154.5 148 Post Transition Metals 91 <0.001 2.02 6.30 7.87 7.28 227 207.1 11.30 179.1
+Polonium Po 84 209.0 9.32 527 1235 Solid 84 0 2,8,18,32,18,6 16 6 1 1 1898 http://en.wikipedia.org/wiki/Hydrogen 29 22 167.3 140 Metalloids X X 180 <0.001 2.00 6.95 20 8.42 N/A 146 13.0 100.8
+Astatine At 85 210.0 7 575 575 Solid 85 0 2,8,18,32,18,7 17 6 1 1 1940 http://en.wikipedia.org/wiki/Hydrogen 34 34 127 150 Halogens X X 270 <0.001 2.20 7.60 1.7 9.33 180 N/A 13.0 N/A
+Radon Rn 86 222.0 4.4 202 211.3 Gas 86 0 2,8,18,32,18,8 18 6 1 1 1898 http://en.wikipedia.org/wiki/Hydrogen 37 34 240 150 Noble Gases X 0 <0.001 2.20 8.25 0.00364 10.75 152 0 3.247 18.1
+Francium Fr 87 223 1.87 300 300 Solid 87 0 2,8,18,32,18,8,1 1 7 1 1 1939 http://en.wikipedia.org/wiki/Hydrogen 36 36 270 260 Alkali Metals X 0 <0.001 0.70 2.20 15 3.94 118 72.8 2.0 N/A
+Radium Ra 88 226.0 5.0 973 973 Solid 88 0 2,8,18,32,18,8,2 2 7 1 1 1898 http://en.wikipedia.org/wiki/Hydrogen 39 39 223 221 Alkaline Earth Metals 0 <0.001 0.90 1.65 18.6 5.28 101 159 8.5 136.8
+Actinoids ** 89 1.06 12.3 2 230 Solid 89 0 1 1 1 1 1 - http://en.wikipedia.org/wiki/Hydrogen 0 0 0 0 Actinoids X X 0 <0.001 0 1.8 12 0 113 406 14.4 293
+Rutherfordium Rf 104 261.11 23 2400 5800 Synthetic 104 0 2,8,18,32,32,10,2 4 7 1 1 1968 http://en.wikipedia.org/wiki/Hydrogen 17 17 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Dubnium Db 105 268.0 0 0 0 Synthetic 105 0 2,8,18,32,32,11,2 5 7 1 1 1970 http://en.wikipedia.org/wiki/Hydrogen 18 18 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Seaborgium Sg 106 271.0 0 0 0 Synthetic 106 0 2,8,18,32,32,12,2 6 7 1 1 1974 http://en.wikipedia.org/wiki/Hydrogen 15 15 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Bohrium Bh 107 270.0 0 0 0 Synthetic 107 0 2,8,18,32,32,13,2 7 7 1 1 1981 http://en.wikipedia.org/wiki/Hydrogen 14 14 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Hassium Hs 108 277.0 0 0 0 Synthetic 108 0 2,8,18,32,32,14,2 8 7 1 1 1984 http://en.wikipedia.org/wiki/Hydrogen 14 14 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Meitnerium Mt 109 276.0 0 0 0 Synthetic 109 0 2,8,18,32,32,15,2 9 7 1 1 1982 http://en.wikipedia.org/wiki/Hydrogen 10 10 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Darmstadtium Ds 110 281.0 0 0 0 Synthetic 110 0 2,8,18,32,32,17,1 10 7 1 1 1994 http://en.wikipedia.org/wiki/Hydrogen 16 16 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Roentgenium Rg 111 280.0 0 0 0 Synthetic 111 0 2,8,18,32,32,18,1 11 7 1 1 1994 http://en.wikipedia.org/wiki/Hydrogen 17 17 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Copernicum Cn 112 285.0 0 0 0 Synthetic 112 0 2,8,18,32,32,18,2 12 7 1 1 1996 http://en.wikipedia.org/wiki/Hydrogen 18 18 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Ununtrium Uut 113 284.0 0 0 0 Synthetic 113 0 2,8,18,32,32,18,3 13 7 1 1 2003(unconf.) http://en.wikipedia.org/wiki/Hydrogen 13 13 Unknown Unknown Presumably Other Metals Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Ununquadium Uuq 114 289.0 0 0 0 Synthetic 114 0 2,8,18,32,32,18,4 14 7 1 1 1999 http://en.wikipedia.org/wiki/Hydrogen 11 11 Unknown Unknown Suspected Noble Gas Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Ununpentium Uup 115 288.0 0 0 0 Synthetic 115 0 2,8,18,32,32,18,5 15 7 1 1 2003(unconf.) http://en.wikipedia.org/wiki/Hydrogen 8 8 Unknown Unknown Unknown X X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Ununhexium Uuh 116 293.0 0 0 0 Synthetic 116 0 2,8,18,32,32,18,6 16 7 1 1 2000(unconf.) http://en.wikipedia.org/wiki/Hydrogen 6 6 Unknown Unknown Unknown X X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Ununseptium Uus 117 294.0 0 0 0 Synthetic 117 0 2,8,18,32,32,18,7 17 7 1 1 2009(unconf.) http://en.wikipedia.org/wiki/Hydrogen 6 6 Unknown Unknown Unknown X X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Ununoctium Uuo 118 294.0 0 0 0 Synthetic 118 0 2,8,18,32,32,18,8 18 7 1 1 2002(unconf.) http://en.wikipedia.org/wiki/Hydrogen 6 6 Unknown Unknown Unknown X X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
+H H 1 0 0 0 0 Solid 1 0 1 1 1 1 1 X url 0 0 0 0 X X X 0 0 0 0 0 0 0 0 0 0
