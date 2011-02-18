@@ -1,4 +1,4 @@
-package com.brosser.model; 
+package com.brosser;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -6,102 +6,33 @@ import java.io.InputStream;
 
 import android.content.res.Resources;
 
-import com.brosser.R;
-import com.brosser.model.Element.stpState;
 import com.brosser.model.Element;
+import com.brosser.model.Element.stpState;
 
-public class ElementTable {
-
-	private static ElementTable INSTANCE = null;
+public class DatabaseHandler extends Thread {
 	
-	private static int periods;
-	private static int groups;
+	private static final int groups = 18;
+	private static final int periods = 7;
+	private static Element[] elementList;
+	private static Resources resources;
+	private static int elementsParsed = 0;
 	
-	private static Element[] table;
-	private static Element activeElement;
-	
-	/**
-	 * Load elements
-	 */
-	private ElementTable(Resources resources) {
-		periods = 7;
-		groups = 18;
-		table = parseElements(resources);
-		activeElement = table[0];
-	}	
-	
-	public static ElementTable getInstance(Resources resources) { 
-		if(INSTANCE != null) {
-			return INSTANCE;
-		}
-		else {
-			INSTANCE = new ElementTable(resources);
-			return INSTANCE;
-		}
+	public DatabaseHandler(Resources Resources) {
+		resources = Resources;
 	}
 	
-	public static int selectedNumber(Element activeElement) {
-		int i = 0;
-		int elementPosition = -1;
-		for(Element e : table) {
-			if(e.equals(activeElement)) {
-				elementPosition = i;
-			}
-			i++;
-		}
-		if(elementPosition == -1) {
-			return 2;
-		}
-		return elementPosition;
+	public void run() {
+		elementList = parseElements();
 	}
 	
-	public static Element getElement(int number) {
-		return table[number];
+	public static Element[] getElementList() {
+		return elementList;
 	}
 	
-	public static Element getElement(int group, int period) {
-		if(group > 17 || group < 0 || period > 6 || period < 0) {
-			return null;
-		}
-		else {
-			if(period == 0) {
-				return (group == 0 ? table[0] : table[1]);
-			}
-			else if(period == 1) {
-				return (group < 2 ? table[group+2] : table[group-8]);
-			}
-			else if(period == 2) {
-				return (group < 2 ? table[group+2+8] : table[group]);
-			}
-			else {
-				return table[group + (period*18) - 36];
-			}
-		}
-	}
-	
-	public static int getPeriods() {
-		return periods;
-	}
-	
-	public static int getGroups() {
-		return groups;
-	}
-	
-	public void setStarred(int group, int period, boolean starred) {
-		getElement(group, period).setStarred(starred);
-	}
-	
-	public static Element getActiveElement() {
-		return activeElement;
-	}
-	
-	public static void setActiveElement(Element element) {
-		activeElement = element;
-	}
-	public static Element[] parseElements(Resources resources) {
+	public static Element[] parseElements() {
 		
 		Element[] elements = new Element[groups*periods];
-		String rawText = readRawText(resources);
+		String rawText = readRawText();
 		String[] lines = rawText.split("\n");
 		String line = "";
 		for(int i=0; i<lines.length; i++) {
@@ -170,13 +101,15 @@ public class ElementTable {
 						heatOfFusion, heatOfVaporization);
 				
 				elements[nextElement++] = element;
+				elementsParsed++;
 			}
 		}
 		
 		return elements;
 	}
+	
 
-    private static String readRawText(Resources resources){
+    private static String readRawText(){
 
         InputStream inputStream = resources.openRawResource(R.raw.element_data);
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
