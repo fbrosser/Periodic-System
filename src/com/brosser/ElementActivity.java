@@ -30,7 +30,7 @@ import com.brosser.model.ElementTable;
 public class ElementActivity extends Activity {
 	
 	private ImageButton star;
-	private ImageButton atom;
+	//private ImageButton atom;
 	private ImageButton wiki;
 	private Spinner spinner;
 	
@@ -45,8 +45,8 @@ public class ElementActivity extends Activity {
         // Load images
         star = ((ImageButton)findViewById(R.id.IB_star));
         	star.setImageResource(R.drawable.star_on);
-        atom = ((ImageButton)findViewById(R.id.IB_atom));
-        	atom.setImageResource(R.drawable.atom_small);
+        //atom = ((ImageButton)findViewById(R.id.IB_atom));
+        //	atom.setImageResource(R.drawable.atom_small);
         wiki = ((ImageButton)findViewById(R.id.IB_wiki));
         	wiki.setImageResource(R.drawable.wiki);
         
@@ -174,7 +174,7 @@ public class ElementActivity extends Activity {
 
 	            text.setText((String)data.get("Name"));
 	            text.setTextColor(Color.BLACK);
-	            text.setWidth(150);
+	            text.setWidth(135);
 	            text.setTextSize(12);
 	            String iconOn = (String)data.get("Icon");
 	            
