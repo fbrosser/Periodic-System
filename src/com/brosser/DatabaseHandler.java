@@ -1,6 +1,7 @@
 package com.brosser;
 
 import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -16,12 +17,14 @@ public class DatabaseHandler extends Thread {
 	private static Element[] elementList;
 	private static Resources resources;
 	private static int elementsParsed = 0;
+	private static String[][] languageSets;
 	
 	public DatabaseHandler(Resources Resources) {
 		resources = Resources;
 	}
 	
 	public void run() {
+		languageSets = parseLanguages();
 		elementList = parseElements();
 	}
 	
@@ -29,10 +32,14 @@ public class DatabaseHandler extends Thread {
 		return elementList;
 	}
 	
+	public static int getElementsParsed() {
+		return elementsParsed;
+	}
+	
 	public static Element[] parseElements() {
 		
 		Element[] elements = new Element[groups*periods];
-		String rawText = readRawText();
+		String rawText = readRawText(R.raw.element_data);
 		String[] lines = rawText.split("\n");
 		String line = "";
 		for(int i=0; i<lines.length; i++) {
@@ -108,10 +115,37 @@ public class DatabaseHandler extends Thread {
 		return elements;
 	}
 	
+	public static String[][] parseLanguages() {
+		
+		String[][] langSets = new String[10][30];
+		int[] languageFileIDs = {	R.raw.english,
+									R.raw.swedish};
 
-    private static String readRawText(){
+		for(int i=0; i<languageFileIDs.length; i++) {
+			String rawText = readRawText(languageFileIDs[i]);
+			langSets[i] = singleLanguage(rawText);
+		}
+		
+		return langSets;
+	}
+	
+	public static String[] singleLanguage(String raw) {
+		String[] lines = raw.split("\n");
+		String lang[] = new String[40];
 
-        InputStream inputStream = resources.openRawResource(R.raw.element_data);
+		int next = 0;
+		
+		for(int i=0; i<lines.length; i++) {
+			lang[i] = lines[next++];
+		}
+		
+		return lang;
+	}
+	
+
+    private synchronized static String readRawText(int id){
+
+        InputStream inputStream = resources.openRawResource(id);
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         int i;
 	    try {
@@ -129,5 +163,9 @@ public class DatabaseHandler extends Thread {
 	     }
 	     
 	     return byteArrayOutputStream.toString();
-    }	
+    }
+
+	public static String[] getLanguage(int i) {
+		return languageSets[i];
+	}	
 }
