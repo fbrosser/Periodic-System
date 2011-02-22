@@ -23,17 +23,51 @@ public class DatabaseHandler extends Thread {
 		resources = Resources;
 	}
 	
-	public void run() {
-		languageSets = parseLanguages();
-		elementList = parseElements();
+    private synchronized static String readRawText(int id) {
+
+        InputStream inputStream = resources.openRawResource(id);
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+	    try {
+	    	int i = inputStream.read();
+	    	
+	    	while (i != -1) {
+	          byteArrayOutputStream.write(i);
+	          i = inputStream.read();
+	        }
+	    	
+	        inputStream.close();
+	        
+	     } catch (IOException e) {
+	    	 // TODO Auto-generated catch block
+	     }
+	     
+	     return byteArrayOutputStream.toString();
+    }
+    
+	public static String[][] parseLanguages() {
+		
+		String[][] langSets = new String[10][30];
+		int[] languageFileIDs = {	R.raw.english, R.raw.swedish};
+
+		for(int i=0; i<languageFileIDs.length; i++) {
+			String rawText = readRawText(languageFileIDs[i]);
+			langSets[i] = singleLanguage(rawText);
+		}
+		
+		return langSets;
 	}
 	
-	public static Element[] getElementList() {
-		return elementList;
-	}
-	
-	public static int getElementsParsed() {
-		return elementsParsed;
+	public static String[] singleLanguage(String raw) {
+		String[] lines = raw.split("\n");
+		String lang[] = new String[40];
+
+		int next = 0;
+		
+		for(int i=0; i<lines.length; i++) {
+			lang[i] = lines[next++];
+		}
+		
+		return lang;
 	}
 	
 	public static Element[] parseElements() {
@@ -60,20 +94,15 @@ public class DatabaseHandler extends Thread {
 				double boilingPoint = Double.parseDouble(text[next++]);
 				stpState state = Element.parseState(text[next++]);
 				int nProtons = Integer.parseInt(text[next++]);
-				//int nNeutrons = Integer.parseInt(text[next++]);
 				next++;
 				String nElectrons = (text[next++]);
 				int group = Integer.parseInt(text[next++]);
 				int period = Integer.parseInt(text[next++]);
-				//String groupName = text[next++];
-				//String periodName = text[next++];
 				next++;
 				next++;
 				String date = text[next++];
 				String wikiurl = "http://en.wikipedia.org/wiki/" + name;
 				next++;
-				//next++;
-				//int nIsotopes = 0;
 				int nIsotopes = Integer.parseInt(text[next++]);
 				int nRadIsotopes = Integer.parseInt(text[next++]);
 				String radius = text[next++];
@@ -115,56 +144,19 @@ public class DatabaseHandler extends Thread {
 		return elements;
 	}
 	
-	public static String[][] parseLanguages() {
-		
-		String[][] langSets = new String[10][30];
-		int[] languageFileIDs = {	R.raw.english,
-									R.raw.swedish};
-
-		for(int i=0; i<languageFileIDs.length; i++) {
-			String rawText = readRawText(languageFileIDs[i]);
-			langSets[i] = singleLanguage(rawText);
-		}
-		
-		return langSets;
+	public void run() {
+		languageSets = parseLanguages();
+		elementList = parseElements();
 	}
 	
-	public static String[] singleLanguage(String raw) {
-		String[] lines = raw.split("\n");
-		String lang[] = new String[40];
-
-		int next = 0;
-		
-		for(int i=0; i<lines.length; i++) {
-			lang[i] = lines[next++];
-		}
-		
-		return lang;
+	public static Element[] getElementList() {
+		return elementList;
 	}
 	
-
-    private synchronized static String readRawText(int id){
-
-        InputStream inputStream = resources.openRawResource(id);
-        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-        int i;
-	    try {
-	    	i = inputStream.read();
-	    	
-	    	while (i != -1) {
-	          byteArrayOutputStream.write(i);
-	          i = inputStream.read();
-	        }
-	    	
-	        inputStream.close();
-	        
-	     } catch (IOException e) {
-	    	 // TODO Auto-generated catch block
-	     }
-	     
-	     return byteArrayOutputStream.toString();
-    }
-
+	public static int getElementsParsed() {
+		return elementsParsed;
+	}
+	
 	public static String[] getLanguage(int i) {
 		return languageSets[i];
 	}	
