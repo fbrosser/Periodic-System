@@ -28,7 +28,7 @@ Cobalt Co 27 58.933 8.9 1768 3143 Solid 27 0 2,8,15,2 9 4 1 1 1732 http://en.wik
 Nickel Ni 28 58.69 8.902 1726 3005 Solid 28 0 2,8,16,2 10 4 1 1 1751 http://en.wikipedia.org/wiki/Hydrogen 14 9 124 125 Transition Metals X 112 0.03 1.91 4.05 90.7 7.635 78 429.7 17.6 374.8
 Copper Cu 29 63.546 8.96 1356.4 2840 Solid 29 0 2,8,18,1 11 4 1 1 9000BC http://en.wikipedia.org/wiki/Hydrogen 18 16 128 132 Transition Metals X 119 0.01 1.90 4.20 401 7.726 96 338.3 13.0 306.7
 Zinc Zn 30 65.38 7.133 692.73 1180 Solid 30 0 2,8,18,2 12 4 1 1 1000BC+ http://en.wikipedia.org/wiki/Hydrogen 23 19 122.1 122 Transition Metals X 0 0.03 1.65 4.35 116 9.394 83 130.7 6.67 114.2
-Gallium Ga 31 65.38 5.907 302.93 2676 Liquid 31 0 2,8,18,3 13 4 1 1 1875 http://en.wikipedia.org/wiki/Hydrogen 23 21 122.5 122 Post Transition Metals 41 <0.001 1.81 5.00 40.6 5.999 113 277.0 5.59 270.3
+Gallium Ga 31 65.38 5.907 302.93 2676 Liquid 31 0 2,8,18,3 13 4 1 1 1875 http://en.wikipedia.org/wiki/Hydrogen 23 21 122.5 122 Post Tr. Metals 41 <0.001 1.81 5.00 40.6 5.999 113 277.0 5.59 270.3
 Germanium Ge 32 72.61 5.323 1210.55 3103 Solid 32 0 2,8,18,4 14 4 1 1 1886 http://en.wikipedia.org/wiki/Hydrogen 24 19 124.5 125 Metalloids X X 119 <0.001 2.01 5.65 59.9 7.899 90 376.6 34.7 327.6
 Arsenic As 33 74.992 5.78 1090.15 886 Solid 33 0 2,8,18,5 15 4 1 1 2500BC http://en.wikipedia.org/wiki/Hydrogen 21 20 116 117 Metalloids X X 79 <0.001 2.18 6.30 50.0 9.81 69 302.5 27.7 31.9
 Selenium Se 34 78.96 4.79 490 958 Solid 34 0 2,8,18,6 16 4 1 1 1817 http://en.wikipedia.org/wiki/Hydrogen 26 20 114.5 114 Nonmetals X X 195 <0.001 2.55 6.95 2.04 9.752 69 227.1 5.1 90
@@ -46,8 +46,8 @@ Rhodium Rh 45 102.91 12.41 2239 4000 Solid 45 0 2,8,18,16,1 9 5 1 1 1804 http://
 Palladium Pd 46 106.42 12.02 1825 3413 Solid 46 0 2,8,18,18 10 5 1 1 1803 http://en.wikipedia.org/wiki/Hydrogen 25 19 144.5 134 Transition Metals X 54 <0.001 2.20 4.05 71.8 8.34 86 378.2 17.2 361.5
 Silver Ag 47 107.87 10.5 1235.08 2485 Solid 47 0 2,8,18,18,1 11 5 1 1 5000BC+ http://en.wikipedia.org/wiki/Hydrogen 46 44 148.9 141 Transition Metals X 126 <0.001 1.93 4.20 429 7.576 113 284.6 11.3 257.7
 Cadmium Cd 48 112.41 8.65 594.05 1038 Solid 48 0 2,8,18,18,2 12 5 1 1 1817 http://en.wikipedia.org/wiki/Hydrogen 31 23 162.6 150 Transition Metals X 0 <0.001 1.96 4.35 96.8 8.993 114 112.0 6.11 100.0
-Indium In 49 114.82 7.31 429.76 2345 Solid 49 0 2,8,18,18,3 13 5 1 1 1863 http://en.wikipedia.org/wiki/Hydrogen 59 58 140.5 140 Post Transition Metals 39 <0.001 1.78 5.0 81.6 5.786 132 243.3 3.27 231.8
-Tin Sn 50 118.69 7.31 505.12 2875 Solid 50 0 2,8,18,18,4 14 5 1 1 3500BC http://en.wikipedia.org/wiki/Hydrogen 37 27 145 141 Post Transition Metals 107 <0.001 1.96 5.65 66.6 7.344 93 302.1 7.20 296.2
+Indium In 49 114.82 7.31 429.76 2345 Solid 49 0 2,8,18,18,3 13 5 1 1 1863 http://en.wikipedia.org/wiki/Hydrogen 59 58 140.5 140 Post Tr. Metals 39 <0.001 1.78 5.0 81.6 5.786 132 243.3 3.27 231.8
+Tin Sn 50 118.69 7.31 505.12 2875 Solid 50 0 2,8,18,18,4 14 5 1 1 3500BC http://en.wikipedia.org/wiki/Hydrogen 37 27 145 141 Post Tr. Metals 107 <0.001 1.96 5.65 66.6 7.344 93 302.1 7.20 296.2
 Antimony Sb 51 121.175 6.691 903.89 1860 Solid 51 0 2,8,18,18,5 15 5 1 1 3000BC http://en.wikipedia.org/wiki/Hydrogen 40 38 140 137 Metalloids X X 101 <0.001 2.05 6.30 24.3 8.641 89 262.3 20.9 165.8
 Tellurium Te 52 127.60 6.24 722.65 1262 Solid 52 0 2,8,18,18,6 16 5 1 1 1782 http://en.wikipedia.org/wiki/Hydrogen 39 33 140 133 Metalloids X X 190 <0.001 2.10 6.95 2.35 9.009 211 196.7 13.5 104.6
 Iodine I 53 126.90 4.93 385.5 457 Solid 53 0 2,8,18,18,7 17 5 1 1 1811 http://en.wikipedia.org/wiki/Hydrogen 37 36 140 139 Halogens X X 295 <0.001 2.66 7.60 0.449 10.451 220 106.8 15.27 41.67
@@ -64,9 +64,9 @@ Iridium Ir 77 192.2 22.42 2683 4701 Solid 77 0 2,8,18,32,15,2 9 6 1 1 1803 http:
 Platinum Pt 78 195.09 21.45 2045 4100 Solid 78 0 2,8,18,32,17,1 10 6 1 1 1803 http://en.wikipedia.org/wiki/Hydrogen 23 17 137.3 136 Transition Metals X 205 <0.001 2.20 4.05 71.6 9.02 127 565.3 22.17 469
 Gold Au 79 196.197 19.32 1337.15 3080.15 Solid 79 0 2,8,18,32,18,1 11 6 1 1 6000BC+ http://en.wikipedia.org/wiki/Hydrogen 31 30 144.2 136 Transition Metals X 223 <0.001 2.28 4.20 317 9.22 149 366.1 12.55 343.1
 Mercury Hg 80 200.59 13.546 234.28 629.88 Liquid 80 0 2,8,18,32,18,2 12 6 1 1 2000BC+ http://en.wikipedia.org/wiki/Hydrogen 24 17 150.3 132 Transition Metals X 0 <0.001 2.00 4.35 8.34 10.44 132 61.3 2.29 59.11
-Thallium Tl 81 204.37 11.85 576.5 1730 Solid 81 0 2,8,18,32,18,3 13 6 1 1 1861 http://en.wikipedia.org/wiki/Hydrogen 39 38 170 170 Post Transition Metals 36 <0.001 1.62 5.00 46.1 6.10 96 182.2 4.14 166.1
-Lead Pb 82 207.19 11.35 600.642 2013 Solid 82 0 2,8,18,32,18,4 14 6 1 1 7000BC http://en.wikipedia.org/wiki/Hydrogen 25 19 175 146 Post Transition Metals 35 <0.001 2.33 5.65 35.3 7.42 65 195.0 4.77 177.8
-Bismuth Bi 83 208.98 9.747 544.3 1837 Solid 83 0 2,8,18,32,18,5 15 6 1 1 1753 http://en.wikipedia.org/wiki/Hydrogen 28 27 154.5 148 Post Transition Metals 91 <0.001 2.02 6.30 7.87 7.28 227 207.1 11.30 179.1
+Thallium Tl 81 204.37 11.85 576.5 1730 Solid 81 0 2,8,18,32,18,3 13 6 1 1 1861 http://en.wikipedia.org/wiki/Hydrogen 39 38 170 170 Post Tr. Metals 36 <0.001 1.62 5.00 46.1 6.10 96 182.2 4.14 166.1
+Lead Pb 82 207.19 11.35 600.642 2013 Solid 82 0 2,8,18,32,18,4 14 6 1 1 7000BC http://en.wikipedia.org/wiki/Hydrogen 25 19 175 146 Post Tr. Metals 35 <0.001 2.33 5.65 35.3 7.42 65 195.0 4.77 177.8
+Bismuth Bi 83 208.98 9.747 544.3 1837 Solid 83 0 2,8,18,32,18,5 15 6 1 1 1753 http://en.wikipedia.org/wiki/Hydrogen 28 27 154.5 148 Post Tr. Metals 91 <0.001 2.02 6.30 7.87 7.28 227 207.1 11.30 179.1
 Polonium Po 84 209.0 9.32 527 1235 Solid 84 0 2,8,18,32,18,6 16 6 1 1 1898 http://en.wikipedia.org/wiki/Hydrogen 29 22 167.3 140 Metalloids X X 180 <0.001 2.00 6.95 20 8.42 N/A 146 13.0 100.8
 Astatine At 85 210.0 7 575 575 Solid 85 0 2,8,18,32,18,7 17 6 1 1 1940 http://en.wikipedia.org/wiki/Hydrogen 34 34 127 150 Halogens X X 270 <0.001 2.20 7.60 1.7 9.33 180 N/A 13.0 N/A
 Radon Rn 86 222.0 4.4 202 211.3 Gas 86 0 2,8,18,32,18,8 18 6 1 1 1898 http://en.wikipedia.org/wiki/Hydrogen 37 34 240 150 Noble Gases X 0 <0.001 2.20 8.25 0.00364 10.75 152 0 3.247 18.1
@@ -82,8 +82,8 @@ Meitnerium Mt 109 276.0 0 0 0 Synthetic 109 0 2,8,18,32,32,15,2 9 7 1 1 1982 htt
 Darmstadtium Ds 110 281.0 0 0 0 Synthetic 110 0 2,8,18,32,32,17,1 10 7 1 1 1994 http://en.wikipedia.org/wiki/Hydrogen 16 16 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
 Roentgenium Rg 111 280.0 0 0 0 Synthetic 111 0 2,8,18,32,32,18,1 11 7 1 1 1994 http://en.wikipedia.org/wiki/Hydrogen 17 17 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
 Copernicum Cn 112 285.0 0 0 0 Synthetic 112 0 2,8,18,32,32,18,2 12 7 1 1 1996 http://en.wikipedia.org/wiki/Hydrogen 18 18 Unknown Unknown Transition Metals X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
-Ununtrium Uut 113 284.0 0 0 0 Synthetic 113 0 2,8,18,32,32,18,3 13 7 1 1 2003(unconf.) http://en.wikipedia.org/wiki/Hydrogen 13 13 Unknown Unknown Presumably Other Metals Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
-Ununquadium Uuq 114 289.0 0 0 0 Synthetic 114 0 2,8,18,32,32,18,4 14 7 1 1 1999 http://en.wikipedia.org/wiki/Hydrogen 11 11 Unknown Unknown Suspected Noble Gas Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Ununtrium Uut 113 284.0 0 0 0 Synthetic 113 0 2,8,18,32,32,18,3 13 7 1 1 2003(unconf.) http://en.wikipedia.org/wiki/Hydrogen 13 13 Unknown Unknown Other Metals (?) Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
+Ununquadium Uuq 114 289.0 0 0 0 Synthetic 114 0 2,8,18,32,32,18,4 14 7 1 1 1999 http://en.wikipedia.org/wiki/Hydrogen 11 11 Unknown Unknown Noble Gas (?) Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
 Ununpentium Uup 115 288.0 0 0 0 Synthetic 115 0 2,8,18,32,32,18,5 15 7 1 1 2003(unconf.) http://en.wikipedia.org/wiki/Hydrogen 8 8 Unknown Unknown Unknown X X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
 Ununhexium Uuh 116 293.0 0 0 0 Synthetic 116 0 2,8,18,32,32,18,6 16 7 1 1 2000(unconf.) http://en.wikipedia.org/wiki/Hydrogen 6 6 Unknown Unknown Unknown X X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown
 Ununseptium Uus 117 294.0 0 0 0 Synthetic 117 0 2,8,18,32,32,18,7 17 7 1 1 2009(unconf.) http://en.wikipedia.org/wiki/Hydrogen 6 6 Unknown Unknown Unknown X X Unknown 0 0 0 Unknown Unknown Unknown Unknown Unknown Unknown

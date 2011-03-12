@@ -34,11 +34,135 @@
         </ImageButton> 
         
     </LinearLayout>
-	<ScrollView android:layout_marginBottom="50dip" android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:layout_width="fill_parent">
-	    <TextView android:id="@+id/info" android:layout_height="wrap_content" android:layout_width="wrap_content" />
+    
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:paddingBottom="48dp" android:scrollbars="none"> 
+	<!-- 	android:scrollbars="vertical" -->
+	
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:stretchColumns="1">
+		    	<TableRow>
+		    		<TextView android:id="@+id/row1a1" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row1a2" android:paddingRight="10px" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+				<TableRow>
+		    		<TextView android:id="@+id/row2a1" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row2a2" android:paddingRight="10px" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+		    	<TableRow>
+		    		<TextView android:id="@+id/row3a1" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row3a2" android:paddingRight="10px" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+				<TableRow>
+		    		<TextView android:id="@+id/row4a1" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row4a2" android:paddingRight="10px" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>	    	
+		    	<TableRow>
+		    		<TextView android:id="@+id/row5a1" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row5a2" android:paddingRight="10px" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+				<TableRow>
+		    		<TextView android:id="@+id/row6a1" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row6a2" android:paddingRight="10px" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+		    	<TableRow>
+		    		<TextView android:id="@+id/row7a1" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row7a2" android:paddingRight="10px" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+				<TableRow>
+		    		<TextView android:id="@+id/row8a1" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row8a2" android:paddingRight="10px" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>	    	
+		    	<TableRow>
+		    		<TextView android:id="@+id/row9a1" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row9a2" android:paddingRight="10px" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+				<TableRow>
+		    		<TextView android:id="@+id/row10a1" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row10a2" android:paddingRight="10px" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+		    	<TableRow>
+		    		<TextView android:id="@+id/row11a1" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row11a2" android:paddingRight="10px" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+				<TableRow>
+		    		<TextView android:id="@+id/row12a1" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row12a2" android:paddingRight="10px" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>	    	
+		    	<TableRow>
+		    		<TextView android:id="@+id/row13a1" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row13a2" android:paddingRight="10px" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+				<TableRow>
+		    		<TextView android:id="@+id/row14a1" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row14a2" android:paddingRight="10px" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+		    	<TableRow>
+		    		<TextView android:id="@+id/row15a1" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row15a2" android:paddingRight="10px" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+				<TableRow>
+		    		<TextView android:id="@+id/row16a1" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row16a2" android:paddingRight="10px" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>	    	
+		    	<TableRow>
+		    		<TextView android:id="@+id/row17a1" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row17a2" android:paddingRight="10px" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+				<TableRow>
+		    		<TextView android:id="@+id/row18a1" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row18a2" android:paddingRight="10px" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+				<TableRow>
+		    		<TextView android:id="@+id/row19a1" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row19a2" android:paddingRight="10px" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+		    	<TableRow>
+		    		<TextView android:id="@+id/row20a1" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row20a2" android:paddingRight="10px" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+				<TableRow>
+		    		<TextView android:id="@+id/row21a1" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row21a2" android:paddingRight="10px" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>	    	
+		    	<TableRow>
+		    		<TextView android:id="@+id/row22a1" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row22a2" android:paddingRight="10px" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+				<TableRow>
+		    		<TextView android:id="@+id/row23a1" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row23a2" android:paddingRight="10px" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+		    	<TableRow>
+		    		<TextView android:id="@+id/row24a1" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row24a2" android:paddingRight="10px" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+				<TableRow>
+		    		<TextView android:id="@+id/row25a1" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row25a2" android:paddingRight="10px" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>	    	
+				<TableRow>
+		    		<TextView android:id="@+id/row26a1" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row26a2" android:paddingRight="10px" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+		    	<TableRow>
+		    		<TextView android:id="@+id/row27a1" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row27a2" android:paddingRight="10px" android:background="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>
+				<TableRow>
+		    		<TextView android:id="@+id/row28a1" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left"/>
+		    		<TextView android:id="@+id/row28a2" android:paddingRight="10px" android:background="#707070" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right"/>
+		    	</TableRow>	  
+		</TableLayout>
 	</ScrollView>
+	
+
 	     <RelativeLayout android:layout_marginTop="-50dip" android:gravity="bottom" android:layout_height="wrap_content" android:layout_width="fill_parent">
 	        <LinearLayout 	android:orientation="horizontal" 
+	        				android:background="#000000"
 	        				android:layout_height="wrap_content" 
 	        				android:layout_width="fill_parent"
 	        				android:gravity="center_horizontal|center_vertical">
