@@ -8,19 +8,25 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class SplashActivity extends Activity {
 	
     protected boolean _active = true;
     protected int _splashTime = 2000;
     protected Context packageContext;
-
+    
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen);
         this.packageContext = this;
+        
+        // Display splash image
+        ((ImageButton)findViewById(R.id.splashImage)).setBackgroundResource(R.drawable.splashatom);
         
         // Thread for displaying the splash screen
         Thread splashTread = new Thread() {

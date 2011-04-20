@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="Reading database..."
-    />
-<TextView  
-	android:id="@+id/splashNumber"
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text=""
-    />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/LinearLayout01">
+	<TextView android:id="@+id/TextView01" android:layout_gravity="center_horizontal" android:text="Periodic Table" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<ImageButton android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/splashImage" android:layout_gravity="center_horizontal"></ImageButton>
+	<TextView android:id="@+id/TextView02" android:text="Reading Database..." android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal|bottom"></TextView>
 </LinearLayout>

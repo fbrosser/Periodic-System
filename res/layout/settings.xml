@@ -2,46 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-	<CheckBox
-		android:id="@+id/cbxBox1"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:checked="false"
-		/>
-	<TextView
-		android:id="@+id/txtCheckBox"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:text="Not checked"
-		/>
-	<RadioGroup
-		android:id="@+id/rgGroup1"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:orientation="vertical">
-		<RadioButton android:id="@+id/RB1" android:text="Kaffe" />
-		<RadioButton android:id="@+id/RB2" android:text="Te" />
-		<RadioButton android:id="@+id/RB3" android:text="Choklad" />
-		</RadioGroup>
-	<TextView
-		android:id="@+id/txtRadio"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:text="RadioGroup: Nothing picked"
-		/>
-	<TextView
-		android:id="@+id/txtSpinner"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:text="Language"
-		/>
-	<Spinner
-		android:id="@+id/spinner"
-		android:layout_width="250dp"
-		android:layout_height="wrap_content"
-		android:layout_centerHorizontal="true"
-		android:layout_marginTop="2dp"
-		/>
+    android:layout_height="fill_parent">
+	
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<CheckBox android:text="" android:id="@+id/showUnits" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	<TextView android:id="@+id/txtShowUnits" android:layout_width="wrap_content" android:text="Show Units" android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<CheckBox android:text="" android:id="@+id/showColours" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	<TextView android:id="@+id/txtShowColours" android:layout_width="wrap_content" android:text="Show Table Colours" android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout04" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<CheckBox android:text="" android:id="@+id/lockLandscape" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	<TextView android:id="@+id/txtLockLandscape" android:layout_width="wrap_content" android:text="Lock Landscape Mode" android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+<LinearLayout android:gravity="center_horizontal" android:id="@+id/LinearLayout05" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<TextView android:gravity="center_horizontal" android:id="@+id/txtSpinner" android:layout_width="wrap_content" android:text="Language" android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+<LinearLayout android:gravity="center_horizontal" android:id="@+id/LinearLayout06" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<Spinner android:gravity="center_horizontal" android:id="@+id/spinner" android:layout_width="fill_parent" android:layout_height="wrap_content"></Spinner>
+</LinearLayout>	
 </LinearLayout>

@@ -22,11 +22,7 @@ import android.widget.AdapterView.OnItemSelectedListener;
 
 public class SettingsActivity extends Activity {
 	
-	//private CheckBox checkBox;
 	private CheckBox showUnits, showColours, lockLandscape;
-	//private TextView txtCheckBox, txtRadio;
-	private TextView txtShowUnits, txtShowColour, txtLockLandscape, txtSpinner;
-	//private RadioButton rb1, rb2, rb3;
 	private Spinner spinner;
 	
     /** Called when the activity is first created. */
