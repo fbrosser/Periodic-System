@@ -87,7 +87,7 @@ public class DatabaseHandler extends Thread {
 		// Throw
 		SingleElementThread[] elementThreads = new SingleElementThread[N];
 		for(int i=0; i<elementThreads.length; i++) {
-			elementThreads[i] = new SingleElementThread(35*i, text);
+			elementThreads[i] = new SingleElementThread(34 * i, text);
 			elementThreads[i].start();
 		}
 		// Collect

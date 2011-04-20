@@ -56,7 +56,10 @@ public class TableActivity extends Activity implements OnClickListener {
 		}
 		
 		// Show element view for the selected element
-		Intent intent = new Intent(this, ElementActivity.class);
-		startActivity(intent);
+		TabHostActivity tabHost = (TabHostActivity) this.getParent();
+		tabHost.switchTab(1);
+		//Intent intent = new Intent(this, ElementActivity.class);
+		//startActivity(intent);
+		
 	}
 }

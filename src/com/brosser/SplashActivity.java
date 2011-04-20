@@ -66,11 +66,13 @@ public class SplashActivity extends Activity {
                 		stop();
                 }
                 	*/
+        		
                 try {
 					databaseHandler.join();
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 				}
+				
                 Element.setLanguage(DatabaseHandler.getLanguage(0));
         		// Languages
         		finish();
