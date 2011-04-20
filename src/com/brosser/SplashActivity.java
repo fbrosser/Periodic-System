@@ -1,5 +1,6 @@
 package com.brosser;
 
+import com.brosser.database.DatabaseHandler;
 import com.brosser.model.Element;
 
 import android.app.Activity;
@@ -15,22 +16,23 @@ public class SplashActivity extends Activity {
     protected boolean _active = true;
     protected int _splashTime = 2000;
     protected Context packageContext;
-    private static TextView displayNumber;
+    //private static TextView displayNumber;
     
+    /*
     private final Runnable mUpdateUITimerTask = new Runnable() {
         public void run() {
             displayNumber.setText("Done!");
         }
     };
     private final Handler mHandler = new Handler();
-    
+    */
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen);
         this.packageContext = this;
-        displayNumber = ((TextView)findViewById(R.id.splashNumber));
+        //displayNumber = ((TextView)findViewById(R.id.splashNumber));
         
         // Thread for displaying the splash screen
         Thread splashTread = new Thread() {

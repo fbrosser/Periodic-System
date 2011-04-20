@@ -3,6 +3,7 @@ package com.brosser;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.brosser.database.DatabaseHandler;
 import com.brosser.model.Element;
 import com.brosser.model.ElementTable;
 

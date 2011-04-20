@@ -2,7 +2,7 @@ package com.brosser.model;
 
 import android.content.res.Resources;
 
-import com.brosser.DatabaseHandler;
+import com.brosser.database.DatabaseHandler;
 import com.brosser.model.Element;
 
 public class ElementTable {
