@@ -59,7 +59,7 @@ public class TabHostActivity extends TabActivity {
 					.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)));
 	}
 	
-	public void switchTab(int tabIndex){
+	public void switchTab(int tabIndex) {
 		getTabHost().setCurrentTab(tabIndex);
 	}
 }

@@ -8,10 +8,12 @@ public class SingleElementThread extends Thread {
 	private Element elem;
 	private int Offset;
 	private String[] Text;
+	private boolean finished;
 	
 	public SingleElementThread(int offset, String[] text) {
 		this.Offset = offset;
 		this.Text = text;
+		this.finished = false;
 	}
 
 	public void run() {
@@ -78,5 +80,10 @@ public class SingleElementThread extends Thread {
 						heatOfFusion, heatOfVaporization);
 				
 		this.elem = element;
+		this.finished = true;
+	}
+
+	public boolean isFinished() {
+		return this.finished;
 	}
 }

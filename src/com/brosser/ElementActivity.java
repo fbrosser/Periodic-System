@@ -31,7 +31,6 @@ import com.brosser.model.ElementTable;
 public class ElementActivity extends Activity {
 	
 	private ImageButton star;
-	//private ImageButton atom;
 	private ImageButton wiki;
 	private Spinner spinner;
 	
@@ -46,8 +45,6 @@ public class ElementActivity extends Activity {
         // Load images
         star = ((ImageButton)findViewById(R.id.IB_star));
         	star.setImageResource(R.drawable.star_on);
-        //atom = ((ImageButton)findViewById(R.id.IB_atom));
-        //	atom.setImageResource(R.drawable.atom_small);
         wiki = ((ImageButton)findViewById(R.id.IB_wiki));
         	wiki.setImageResource(R.drawable.wiki);
         
@@ -100,11 +97,16 @@ public class ElementActivity extends Activity {
     	super.onResume();
     	// Screen orientation according to sensor
     	setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
+    	reload();
     }
     
     public void reload() {
         onStop();
         onCreate(getIntent().getExtras());
+        // Create the spinner used for selecting element
+        createSpinner();	
+        // Reload text for currently selected element 	
+        reloadText();
     }
     
     public void reloadText() {
@@ -126,19 +128,14 @@ public class ElementActivity extends Activity {
     			int resID = getResources().getIdentifier(textID, "id", getPackageName());
 
     			if(resID != 0) {
-	    			//text[i][j] = ((Button) findViewById(resID));
-	    			//text[i][j].setOnClickListener(this);
     				TextView tRow = ((TextView)findViewById(resID));
     				if(tRow != null) {
     					tRow.setText(textArray[(i*2)+j]);
-    					//tRow.setText("Chemical Stuff");
     				}
     			}
     		}
     	}
     	
-    	
-        //((TextView)findViewById(R.id.info)).setText(text);
         ((TextView)findViewById(R.id.header)).setText(active.getName());
     }
     
@@ -150,7 +147,7 @@ public class ElementActivity extends Activity {
         HashMap<String, Object> map = new HashMap<String, Object>();
         
         // Populate spinner item list
-        for(int i=0; i<90; i++) { // 18*7
+        for(int i=0; i<90; i++) {
         	Element element = ElementTable.getElement(i);
         	map = new HashMap<String, Object>();
             map.put("Name", element.getNumber() + " " + element.getSymbol() + " " + element.getName());
