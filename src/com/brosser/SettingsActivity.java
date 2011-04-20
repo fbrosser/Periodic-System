@@ -23,7 +23,7 @@ import android.widget.AdapterView.OnItemSelectedListener;
 public class SettingsActivity extends Activity {
 	
 	//private CheckBox checkBox;
-	private CheckBox showUnits, showColour, lockLandscape;
+	private CheckBox showUnits, showColours, lockLandscape;
 	//private TextView txtCheckBox, txtRadio;
 	private TextView txtShowUnits, txtShowColour, txtLockLandscape, txtSpinner;
 	//private RadioButton rb1, rb2, rb3;
@@ -42,6 +42,10 @@ public class SettingsActivity extends Activity {
         //rb1 = (RadioButton) findViewById(R.id.RB1);
         //rb2 = (RadioButton) findViewById(R.id.RB2);
         //rb3 = (RadioButton) findViewById(R.id.RB3);
+        showUnits = (CheckBox) findViewById(R.id.showUnits);
+        showColours = (CheckBox) findViewById(R.id.showColours);
+        lockLandscape = (CheckBox) findViewById(R.id.lockLandscape);
+        
         spinner = (Spinner) findViewById(R.id.spinner);
         
         showUnits.setOnClickListener(new CheckBox.OnClickListener() {
@@ -54,9 +58,9 @@ public class SettingsActivity extends Activity {
         		}
         	}
         });
-        showColour.setOnClickListener(new CheckBox.OnClickListener() {
+        showColours.setOnClickListener(new CheckBox.OnClickListener() {
         	public void onClick(View v) {
-        		if(showColour.isChecked()) {
+        		if(showColours.isChecked()) {
         			
         		}
         		else {
