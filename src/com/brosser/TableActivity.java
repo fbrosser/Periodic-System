@@ -1,7 +1,6 @@
 package com.brosser;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.view.View.OnClickListener;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -58,8 +57,5 @@ public class TableActivity extends Activity implements OnClickListener {
 		// Show element view for the selected element
 		TabHostActivity tabHost = (TabHostActivity) this.getParent();
 		tabHost.switchTab(1);
-		//Intent intent = new Intent(this, ElementActivity.class);
-		//startActivity(intent);
-		
 	}
 }

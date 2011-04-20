@@ -3,14 +3,11 @@ package com.brosser.database;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.concurrent.CyclicBarrier;
 
 import android.content.res.Resources;
 
 import com.brosser.R;
-import com.brosser.R.raw;
 import com.brosser.model.Element;
-import com.brosser.model.Element.stpState;
 import com.brosser.database.SingleElementThread;
 
 public class DatabaseHandler extends Thread {
@@ -41,7 +38,7 @@ public class DatabaseHandler extends Thread {
 	        inputStream.close();
 	        
 	     } catch (IOException e) {
-	    	 // TODO Auto-generated catch block
+	    	 
 	     }
 	     
 	     return byteArrayOutputStream.toString();
@@ -50,7 +47,7 @@ public class DatabaseHandler extends Thread {
 	public static String[][] parseLanguages() {
 		
 		String[][] langSets = new String[10][30];
-		int[] languageFileIDs = {	R.raw.english, R.raw.german, R.raw.swedish, R.raw.norwegian};
+		int[] languageFileIDs = {R.raw.english, R.raw.german, R.raw.swedish, R.raw.norwegian};
 
 		for(int i=0; i<languageFileIDs.length; i++) {
 			String rawText = readRawText(languageFileIDs[i]);

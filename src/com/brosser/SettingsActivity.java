@@ -22,9 +22,11 @@ import android.widget.AdapterView.OnItemSelectedListener;
 
 public class SettingsActivity extends Activity {
 	
-	private CheckBox checkBox;
-	private TextView txtCheckBox, txtRadio, txtSpinner;
-	private RadioButton rb1, rb2, rb3;
+	//private CheckBox checkBox;
+	private CheckBox showUnits, showColour, lockLandscape;
+	//private TextView txtCheckBox, txtRadio;
+	private TextView txtShowUnits, txtShowColour, txtLockLandscape, txtSpinner;
+	//private RadioButton rb1, rb2, rb3;
 	private Spinner spinner;
 	
     /** Called when the activity is first created. */
@@ -34,46 +36,44 @@ public class SettingsActivity extends Activity {
         setContentView(R.layout.settings);
         
         // Some options
-        checkBox = (CheckBox) findViewById(R.id.cbxBox1);
-        txtCheckBox = (TextView) findViewById(R.id.txtCheckBox);
-        txtRadio = (TextView) findViewById(R.id.txtRadio);
-        txtSpinner = (TextView) findViewById(R.id.txtSpinner);
-        rb1 = (RadioButton) findViewById(R.id.RB1);
-        rb2 = (RadioButton) findViewById(R.id.RB2);
-        rb3 = (RadioButton) findViewById(R.id.RB3);
+        //checkBox = (CheckBox) findViewById(R.id.cbxBox1);
+        //txtCheckBox = (TextView) findViewById(R.id.txtCheckBox);
+        //txtRadio = (TextView) findViewById(R.id.txtRadio);
+        //rb1 = (RadioButton) findViewById(R.id.RB1);
+        //rb2 = (RadioButton) findViewById(R.id.RB2);
+        //rb3 = (RadioButton) findViewById(R.id.RB3);
         spinner = (Spinner) findViewById(R.id.spinner);
         
-        // React to events from the checkbox
-        checkBox.setOnClickListener(new CheckBox.OnClickListener() {
+        showUnits.setOnClickListener(new CheckBox.OnClickListener() {
         	public void onClick(View v) {
-        		if(checkBox.isChecked()) {
-        			//txtCheckBox.setText("CheckBox: Box is checked");
-        			txtCheckBox.setText(ElementTable.getActiveElement().getName());
+        		if(showUnits.isChecked()) {
+        			
         		}
         		else {
-        			txtCheckBox.setText("Checkbox: Not checked");
+        			
         		}
         	}
         });
-        
-        // React to events from the RadioGroup
-        rb1.setOnClickListener(new RadioGroup.OnClickListener() {
+        showColour.setOnClickListener(new CheckBox.OnClickListener() {
         	public void onClick(View v) {
-        		txtRadio.setText("Radio: " + rb1.getText() + " picked");
+        		if(showColour.isChecked()) {
+        			
+        		}
+        		else {
+        			
+        		}
         	}
         });
-        
-        rb2.setOnClickListener(new RadioGroup.OnClickListener() {
+        lockLandscape.setOnClickListener(new CheckBox.OnClickListener() {
         	public void onClick(View v) {
-        		txtRadio.setText("Radio: " + rb2.getText() + " picked");
+        		if(lockLandscape.isChecked()) {
+        			
+        		}
+        		else {
+        			
+        		}
         	}
         });
-        
-        rb3.setOnClickListener(new RadioGroup.OnClickListener() {
-        	public void onClick(View v) {
-        		txtRadio.setText("Radio: " + rb3.getText() + " picked");
-        	}
-        });       
         
         // Set up the Spinner entries
         List<String> lsSpinner = new ArrayList<String>();
@@ -81,15 +81,7 @@ public class SettingsActivity extends Activity {
         lsSpinner.add("Deutsch");
         lsSpinner.add("Svenska");
         lsSpinner.add("Norsk");
-      /*
-        lsSpinner.add("Dansk");
-        lsSpinner.add("Suomi");
-        lsSpinner.add("Nederlands");
-        lsSpinner.add("Français");
-        lsSpinner.add("Italiano");
-        lsSpinner.add("Pусский");
-        lsSpinner.add("Ceština");
-       */
+        
         ArrayAdapter<String> aSpinner = new ArrayAdapter<String>(this,
         		android.R.layout.simple_spinner_item, lsSpinner);
         aSpinner.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);

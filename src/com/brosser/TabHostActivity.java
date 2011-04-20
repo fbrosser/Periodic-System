@@ -18,20 +18,7 @@ public class TabHostActivity extends TabActivity {
 		
 		// Inflate the view
 		LayoutInflater.from(this).inflate(R.layout.tabs, tabHost.getTabContentView(), true);
-		
-		/*
-		// Start database handler
-		DatabaseHandler databaseHandler = new DatabaseHandler(getResources());
-		databaseHandler.start();
-		
-		
-		try {
-			databaseHandler.join();
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-		}
-		*/
-		
+
 		Intent tableIntent = new Intent(this, TableActivity.class);
 		Intent elementIntent = new Intent(this, ElementActivity.class);
 		Intent settingsIntent = new Intent(this, SettingsActivity.class);
