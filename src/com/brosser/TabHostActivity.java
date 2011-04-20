@@ -19,6 +19,23 @@ public class TabHostActivity extends TabActivity {
 		// Inflate the view
 		LayoutInflater.from(this).inflate(R.layout.tabs, tabHost.getTabContentView(), true);
 		
+		/*
+		// Start database handler
+		DatabaseHandler databaseHandler = new DatabaseHandler(getResources());
+		databaseHandler.start();
+		
+		
+		try {
+			databaseHandler.join();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+		}
+		*/
+		
+		Intent tableIntent = new Intent(this, TableActivity.class);
+		Intent elementIntent = new Intent(this, ElementActivity.class);
+		Intent settingsIntent = new Intent(this, SettingsActivity.class);
+		
 		// Set up the element table
 		ElementTable elementTable = ElementTable.getInstance(getResources());
 	
@@ -26,19 +43,19 @@ public class TabHostActivity extends TabActivity {
 		tabHost.addTab(tabHost.newTabSpec("table_view")
 				.setIndicator("", 
 						getResources().getDrawable(R.drawable.table))
-				.setContent(new Intent(this, TableActivity.class)
+				.setContent(tableIntent
 					.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)));
 		
 		tabHost.addTab(tabHost.newTabSpec("element_view")
 				.setIndicator("",
 						getResources().getDrawable(R.drawable.atom))
-				.setContent(new Intent(this, ElementActivity.class)
+				.setContent(elementIntent
 					.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)));
 		
 		tabHost.addTab(tabHost.newTabSpec("settings_view")
 				.setIndicator("",
 					getResources().getDrawable(R.drawable.android_settings_icon))
-					.setContent(new Intent(this, SettingsActivity.class)
+					.setContent(settingsIntent
 					.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)));
 	}
 

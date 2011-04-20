@@ -15,6 +15,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -108,7 +109,8 @@ public class ElementActivity extends Activity {
     
     public void reloadText() {
     	Element active = ElementTable.getActiveElement();
-        String text = active.getInfoAsString();
+        //String text = active.getInfoAsString();
+        String[] textArray = active.getInfoAsArray();
         
         if(active.isStarred()) {
         	((ImageButton)findViewById(R.id.starred)).setBackgroundResource(R.drawable.star_on);
@@ -117,7 +119,26 @@ public class ElementActivity extends Activity {
         	((ImageButton)findViewById(R.id.starred)).setBackgroundResource(R.drawable.transparent);
         }
         
-        ((TextView)findViewById(R.id.info)).setText(text);
+        
+    	for(int i=0; i<28; i++) {
+    		for(int j=0; j<2; j++) {
+    			String textID = "row" + (i+1) + "a" + (j+1);
+    			int resID = getResources().getIdentifier(textID, "id", getPackageName());
+
+    			if(resID != 0) {
+	    			//text[i][j] = ((Button) findViewById(resID));
+	    			//text[i][j].setOnClickListener(this);
+    				TextView tRow = ((TextView)findViewById(resID));
+    				if(tRow != null) {
+    					tRow.setText(textArray[(i*2)+j]);
+    					//tRow.setText("Chemical Stuff");
+    				}
+    			}
+    		}
+    	}
+    	
+    	
+        //((TextView)findViewById(R.id.info)).setText(text);
         ((TextView)findViewById(R.id.header)).setText(active.getName());
     }
     

@@ -42,6 +42,7 @@ public class SplashActivity extends Activity {
         		DatabaseHandler databaseHandler = new DatabaseHandler(getResources());
         		databaseHandler.start();
         		
+        		/*
         		try {
         			int waited = 0;
                     while(_active && (waited < _splashTime)) {
@@ -50,7 +51,7 @@ public class SplashActivity extends Activity {
                             waited += 100;
                            databaseHandler.join();
                             mHandler.postDelayed(mUpdateUITimerTask, 10);
-                            Element.setLanguage(DatabaseHandler.getLanguage(1));
+                            Element.setLanguage(DatabaseHandler.getLanguage(0));
                         }
                     }
                 } catch(InterruptedException e) {    
@@ -62,9 +63,22 @@ public class SplashActivity extends Activity {
                 		startActivity(new Intent(packageContext, TabHostActivity.class));
                 		stop();
                 }
+                	*/
+                try {
+					databaseHandler.join();
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+				}
+                Element.setLanguage(DatabaseHandler.getLanguage(0));
+        		// Languages
+        		finish();
+        		// Start the real application
+        		startActivity(new Intent(packageContext, TabHostActivity.class));
+        		stop();
             }
         };
         splashTread.start();
+      
     }
     
     @Override

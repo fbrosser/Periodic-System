@@ -1,7 +1,6 @@
 package com.brosser;
 
 import java.io.ByteArrayOutputStream;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -47,7 +46,7 @@ public class DatabaseHandler extends Thread {
 	public static String[][] parseLanguages() {
 		
 		String[][] langSets = new String[10][30];
-		int[] languageFileIDs = {	R.raw.english, R.raw.swedish};
+		int[] languageFileIDs = {	R.raw.english, R.raw.german, R.raw.swedish, R.raw.norwegian};
 
 		for(int i=0; i<languageFileIDs.length; i++) {
 			String rawText = readRawText(languageFileIDs[i]);
@@ -147,6 +146,7 @@ public class DatabaseHandler extends Thread {
 	public void run() {
 		languageSets = parseLanguages();
 		elementList = parseElements();
+		finish();
 	}
 	
 	public static Element[] getElementList() {
