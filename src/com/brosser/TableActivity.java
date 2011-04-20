@@ -4,8 +4,12 @@ import android.app.Activity;
 import android.view.View.OnClickListener;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ScrollView;
+import android.widget.Scroller;
+
 import com.brosser.model.ElementTable;
 
 public class TableActivity extends Activity implements OnClickListener {
@@ -45,6 +49,11 @@ public class TableActivity extends Activity implements OnClickListener {
     /** Callback function for the buttons */
 	@Override
 	public void onClick(View src)  {
+		
+		if(src == buttons[2][5] || src == buttons[2][6]) {
+		    scrollDown();
+			return;
+		}
 
 		for(int i=0; i<ElementTable.getGroups(); i++) {
 			for(int j=0; j<ElementTable.getPeriods(); j++) {
@@ -58,4 +67,15 @@ public class TableActivity extends Activity implements OnClickListener {
 		TabHostActivity tabHost = (TabHostActivity) this.getParent();
 		tabHost.switchTab(1);
 	}
+	
+	// Scroll down to bottom of scroll view
+	private void scrollDown(){
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                ScrollView scrollView = (ScrollView)findViewById(R.id.scrollRoot);
+                scrollView.scrollTo(scrollView.getBottom(), scrollView.getBottom());
+            }
+        },1);
+    }
 }
