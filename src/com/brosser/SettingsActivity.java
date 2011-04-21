@@ -65,7 +65,7 @@ public class SettingsActivity extends Activity {
         // Set up a callback for the spinner
         spinner.setOnItemSelectedListener( new OnItemSelectedListener() {
         	public void onNothingSelected(AdapterView<?> arg0) {
-        		
+        		// Do nothing
         	}
         	public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
         		Element.setLanguage(DatabaseHandler.getLanguage(position));

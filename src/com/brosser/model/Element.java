@@ -308,41 +308,6 @@ public class Element {
 	}
 
 	public String getInfoAsString() {
-		/*
-		String s = "";
-		s += "Name: " + this.name + "\n";
-		s += "Chemical symbol: " + this.symbol + "\n";
-		s += "Atomic number: " + this.number + "\n";
-		s += "Atomic mass (u): " + this.mass + "\n";
-		s += "Atomic radius (pm): " + this.radius + "\n";
-		s += "Element Category: " + this.category + "\n";
-		s += "Density (g/cm^3 at 293°K): " + this.density + "\n";
-		s += "Meling point (°K): " + this.meltingPoint + "\n";
-		s += "Boiling point (°K): " + this.boilingPoint + "\n";
-		s += "State (at 293°K): " + stateToString(this.state) + "\n";
-		s += "Protons: " + this.nProtons + "\n";
-		//s += "#Neutrons (most common isotope): " + this.nNeutrons + "\n";
-		s += "Electrons per shell: " + this.nElectrons + "\n";
-		s += "Group: " + this.group + "\n";
-		s += "Period: " + this.period + "\n";
-		//s += "Group name: " + this.groupName + "\n";
-		//s += "Period name: " + this.periodName + "\n";
-		s += "Discovered (observed or predicted): " + this.date + "\n";
-		s += "Abundance (% (mass), Lithosphere): " + this.abundance + "\n";
-		s += "Covalent radius (pm): " + this.covRadius + "\n";
-		s += "Electron Affinity: " + this.electronAffinity + "\n";
-		s += "Electronegativity (Pauling): " + this.electroNegativity + "\n";
-		s += "Heat of Formation (kJ/mol): " + this.heatOfFormation + "\n";
-		s += "Heat of Fusion (kJ/mol): " + this.heatOfFusion + "\n";
-		s += "Heat of Vaporization (kJ/mol): " + this.heatOfVaporization + "\n";
-		s += "Ionic Radius (pm): " + this.ionRadius + "\n";
-		s += "Ionization Energy (eV): " + this.ionizationEnergy + "\n";
-		s += "Number of Isotopes: " + this.nIsotopes + "\n";
-		s += "Nuclear Charge (Slater): " +  this.nuclearCharge + "\n";
-		s += "Number of known radioactive isotopes: " + this.nRadIsotopes + "\n";
-		s += "Thermal Conductivity (W/mK at 293°K): " + this.thermalConductivity + "\n";
-		return s;
-		*/
 		String s = "";
 		s += labels[0] + ": " + this.name + "\n";
 		s += labels[1] + ": " + this.symbol + "\n";
@@ -385,5 +350,4 @@ public class Element {
 		}
 		return false;
 	}
-	
 }
