@@ -313,7 +313,7 @@
         <Button android:id="@+id/btn18a8" android:clickable="false" android:layout_weight="1" android:layout_width="32dip" android:paddingRight="5px" android:paddingLeft="1px" android:paddingBottom="1px" android:paddingTop="1px" android:background="#000000" android:drawablePadding="0dp" android:textSize="12dp" android:text="" android:layout_height="26dip"/>
         </TableRow>
 
-<TableRow android:orientation="horizontal" android:paddingTop="4dip" android:background="#000000" android:layout_margin="1dip">
+<TableRow android:orientation="horizontal" android:paddingTop="1dip" android:background="#000000" android:layout_margin="1dip">
         <Button android:id="@+id/btn1a9" android:clickable="false" android:layout_weight="1" android:layout_width="32dip" android:paddingRight="5px" android:paddingLeft="1px" android:paddingBottom="1px" android:paddingTop="1px" android:background="#000000" android:drawablePadding="0dp" android:textSize="12dp" android:text="" android:layout_height="26dip"/>
         <View android:layout_width="1dip" android:paddingRight="0px" android:paddingLeft="0px" android:paddingBottom="0px" android:paddingTop="0px" android:background="#000000" android:drawablePadding="0dp" android:textSize="0dp" android:text="" android:layout_height="26dip"/>
         <Button android:id="@+id/btn2a9" android:clickable="false" android:layout_weight="1" android:layout_width="32dip" android:paddingRight="5px" android:paddingLeft="1px" android:paddingBottom="1px" android:paddingTop="1px" android:background="#000000" android:drawablePadding="0dp" android:textSize="12dp" android:text="" android:layout_height="26dip"/>
@@ -351,7 +351,7 @@
         <Button android:id="@+id/btn18a9" android:clickable="false" android:layout_weight="1" android:layout_width="32dip" android:paddingRight="5px" android:paddingLeft="1px" android:paddingBottom="1px" android:paddingTop="1px" android:background="#000000" android:drawablePadding="0dp" android:textSize="12dp" android:text="" android:layout_height="26dip"/>
         </TableRow>
 
-<TableRow android:orientation="horizontal" android:paddingTop="4dip" android:background="#000000" android:layout_margin="1dip">
+<TableRow android:orientation="horizontal" android:paddingTop="1dip" android:background="#000000" android:layout_margin="1dip">
         <Button android:id="@+id/btn1a10" android:clickable="false" android:layout_weight="1" android:layout_width="32dip" android:paddingRight="5px" android:paddingLeft="1px" android:paddingBottom="1px" android:paddingTop="1px" android:background="#000000" android:drawablePadding="0dp" android:textSize="12dp" android:text="" android:layout_height="26dip"/>
         <View android:layout_width="1dip" android:paddingRight="0px" android:paddingLeft="0px" android:paddingBottom="0px" android:paddingTop="0px" android:background="#000000" android:drawablePadding="0dp" android:textSize="0dp" android:text="" android:layout_height="26dip"/>
         <Button android:id="@+id/btn2a10" android:clickable="false" android:layout_weight="1" android:layout_width="32dip" android:paddingRight="5px" android:paddingLeft="1px" android:paddingBottom="1px" android:paddingTop="1px" android:background="#000000" android:drawablePadding="0dp" android:textSize="12dp" android:text="" android:layout_height="26dip"/>

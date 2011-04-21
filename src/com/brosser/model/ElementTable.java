@@ -16,17 +16,15 @@ public class ElementTable {
 	private static Element activeElement;
 	private static boolean[] options;
 	
-	/**
-	 * Load elements
-	 */
+	/** Load elements */
 	private ElementTable(Resources resources) {
-		periods = 7;
+		periods = 10;
 		groups = 18;
 		table = DatabaseHandler.getElementList();
 		activeElement = table[0];
 		options = new boolean[3];
 		for(int i = 0; i < 3; i++) {
-			options[i] = false;
+			options[i] = true;
 		}
 	}	
 	

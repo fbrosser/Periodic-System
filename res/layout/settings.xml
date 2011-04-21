@@ -14,7 +14,7 @@
 </LinearLayout>
 <LinearLayout android:id="@+id/LinearLayout04" android:layout_width="fill_parent" android:layout_height="wrap_content">
 	<CheckBox android:text="" android:id="@+id/lockLandscape" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
-	<TextView android:id="@+id/txtLockLandscape" android:layout_width="wrap_content" android:text="Lock Landscape Mode" android:layout_height="wrap_content"></TextView>
+	<TextView android:id="@+id/txtLockLandscape" android:layout_width="wrap_content" android:text="Lock Table Landscape Mode" android:layout_height="wrap_content"></TextView>
 </LinearLayout>
 <LinearLayout android:gravity="center_horizontal" android:id="@+id/LinearLayout05" android:layout_width="fill_parent" android:layout_height="wrap_content">
 	<TextView android:gravity="center_horizontal" android:id="@+id/txtSpinner" android:layout_width="wrap_content" android:text="Language" android:layout_height="wrap_content"></TextView>

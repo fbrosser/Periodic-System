@@ -41,6 +41,7 @@ public class SettingsActivity extends Activity {
         
         for(int i = 0; i < 3; i++) {
         	final int id = i;
+        	checkBoxes[id].setChecked(true);
         	checkBoxes[id].setOnClickListener(new CheckBox.OnClickListener() {
             	public void onClick(View v) {
             		ElementTable.setOption(id, checkBoxes[id].isChecked());
