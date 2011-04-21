@@ -43,7 +43,12 @@ public class TableActivity extends Activity implements OnClickListener {
     protected void onResume() {
     	super.onResume();
     	// Fix screen orientation to landscape mode
-    	setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+    	if(ElementTable.getOption(2)) {
+    		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+    	}
+    	else {
+    		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
+    	}
     }
 
     /** Callback function for the buttons */

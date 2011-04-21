@@ -31,49 +31,22 @@ public class SettingsActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.settings);
         
-        // Some options
-        //checkBox = (CheckBox) findViewById(R.id.cbxBox1);
-        //txtCheckBox = (TextView) findViewById(R.id.txtCheckBox);
-        //txtRadio = (TextView) findViewById(R.id.txtRadio);
-        //rb1 = (RadioButton) findViewById(R.id.RB1);
-        //rb2 = (RadioButton) findViewById(R.id.RB2);
-        //rb3 = (RadioButton) findViewById(R.id.RB3);
+        // Option checkboxes
         showUnits = (CheckBox) findViewById(R.id.showUnits);
         showColours = (CheckBox) findViewById(R.id.showColours);
         lockLandscape = (CheckBox) findViewById(R.id.lockLandscape);
+        final CheckBox[] checkBoxes = {showUnits, showColours, lockLandscape};
         
         spinner = (Spinner) findViewById(R.id.spinner);
         
-        showUnits.setOnClickListener(new CheckBox.OnClickListener() {
-        	public void onClick(View v) {
-        		if(showUnits.isChecked()) {
-        			
-        		}
-        		else {
-        			
-        		}
-        	}
-        });
-        showColours.setOnClickListener(new CheckBox.OnClickListener() {
-        	public void onClick(View v) {
-        		if(showColours.isChecked()) {
-        			
-        		}
-        		else {
-        			
-        		}
-        	}
-        });
-        lockLandscape.setOnClickListener(new CheckBox.OnClickListener() {
-        	public void onClick(View v) {
-        		if(lockLandscape.isChecked()) {
-        			
-        		}
-        		else {
-        			
-        		}
-        	}
-        });
+        for(int i = 0; i < 3; i++) {
+        	final int id = i;
+        	checkBoxes[id].setOnClickListener(new CheckBox.OnClickListener() {
+            	public void onClick(View v) {
+            		ElementTable.setOption(id, checkBoxes[id].isChecked());
+            	}
+            });
+        }
         
         // Set up the Spinner entries
         List<String> lsSpinner = new ArrayList<String>();

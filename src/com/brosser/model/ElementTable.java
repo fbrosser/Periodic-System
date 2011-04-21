@@ -14,6 +14,7 @@ public class ElementTable {
 	
 	private static Element[] table;
 	private static Element activeElement;
+	private static boolean[] options;
 	
 	/**
 	 * Load elements
@@ -23,6 +24,10 @@ public class ElementTable {
 		groups = 18;
 		table = DatabaseHandler.getElementList();
 		activeElement = table[0];
+		options = new boolean[3];
+		for(int i = 0; i < 3; i++) {
+			options[i] = false;
+		}
 	}	
 	
 	public static ElementTable getInstance(Resources resources) { 
@@ -72,6 +77,14 @@ public class ElementTable {
 				return table[group + (period*18) - 36];
 			}
 		}
+	}
+	
+	public static void setOption(int i, boolean value) {
+		options[i] = value;
+	}
+	
+	public static boolean getOption(int i) {
+		return options[i];
 	}
 	
 	public static int getPeriods() {
