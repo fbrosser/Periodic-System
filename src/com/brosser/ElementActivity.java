@@ -130,8 +130,7 @@ public class ElementActivity extends Activity {
     				if(tRow != null) {
     					tRow.setText(textArray[(i*2)+j]);
     				}
-    				// Add lang.spec unit(str)
-    				
+    					// Add lang.spec unit(str)
     			}
     		}
     	}

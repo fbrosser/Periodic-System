@@ -58,8 +58,8 @@ public class ElementTable {
 	}
 	
 	public static Element getElement(int group, int period) {
-		if(group > 17 || group < 0 || period > 6 || period < 0) {
-			return null;
+		if(group > 17 || group < 0 || period > 9 || period < 0) {
+			return table[0];
 		}
 		else {
 			if(period == 0) {
@@ -71,8 +71,19 @@ public class ElementTable {
 			else if(period == 2) {
 				return (group < 2 ? table[group+2+8] : table[group]);
 			}
+			else if(period == 8) {
+				return table[0];
+			}
+			else if(period == 9) {
+				return table[0];
+			}
 			else {
-				return table[group + (period*18) - 36];
+				if((group + (period*18) - 36) < table.length) {
+					return table[group + (period*18) - 36];
+				}
+				else {
+					return table[0];
+				}
 			}
 		}
 	}
