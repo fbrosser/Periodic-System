@@ -18,6 +18,7 @@ public class DatabaseHandler extends Thread {
 	private static Resources resources;
 	private static int elementsParsed = 0;
 	private static String[][] languageSets;
+	private static String[] unitSet;
 	
 	public DatabaseHandler(Resources Resources) {
 		resources = Resources;
@@ -102,9 +103,29 @@ public class DatabaseHandler extends Thread {
 		return elements;
 	}
 	
+	public static String[] parseUnits(String raw) {
+		String[] lines = raw.split("\n");
+		String units[] = new String[40];
+
+		int next = 0;
+		
+		for(int i=0; i<lines.length; i++) {
+			int np = next++;
+			if(lines[np].equals("N") || lines[np].equals("A")) {
+				units[i] = "";
+			}
+			else {
+				units[i] = lines[np];
+			}
+		}
+		
+		return units;
+	}
+	
 	public void run() {
 		languageSets = parseLanguages();
 		elementList = parseElements();
+		unitSet = parseUnits(readRawText(R.raw.unit_data_en));
 	}
 	
 	public static Element[] getElementList() {
@@ -118,4 +139,8 @@ public class DatabaseHandler extends Thread {
 	public static String[] getLanguage(int i) {
 		return languageSets[i];
 	}	
+	
+	public static String[] getUnits() {
+		return unitSet;
+	}
 }

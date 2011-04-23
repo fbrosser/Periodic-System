@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.TabHost;
 import android.widget.TextView;
 
+/** Creates Tab Content */
 public class TableTabContentFactory implements TabHost.TabContentFactory {
 	
 	private Context context;

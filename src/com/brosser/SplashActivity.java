@@ -45,6 +45,7 @@ public class SplashActivity extends Activity {
 				}
 				
                 Element.setLanguage(DatabaseHandler.getLanguage(0));
+                Element.setUnits(DatabaseHandler.getUnits());
         		// Languages
         		finish();
         		// Start tab host

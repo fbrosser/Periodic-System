@@ -110,7 +110,6 @@ public class ElementActivity extends Activity {
     
     public void reloadText() {
     	Element active = ElementTable.getActiveElement();
-        //String text = active.getInfoAsString();
         String[] textArray = active.getInfoAsArray();
         
         if(active.isStarred()) {
@@ -131,6 +130,8 @@ public class ElementActivity extends Activity {
     				if(tRow != null) {
     					tRow.setText(textArray[(i*2)+j]);
     				}
+    				// Add lang.spec unit(str)
+    				
     			}
     		}
     	}
@@ -218,7 +219,5 @@ public class ElementActivity extends Activity {
 	                ViewGroup parent) { 
 	        	return getView(position, convertView, parent);
 	        }
-	        
 	    }
-
 }
